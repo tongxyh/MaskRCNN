@@ -17,4 +17,4 @@ This project This repo borrows tons of code from
 https://github.com/CharlesShang/FastMaskRCNN
 
 ## LICENSE
-maybe MIT
+Apache LICENSE 2.0
