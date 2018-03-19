@@ -4,7 +4,8 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 
 ## TO-DO
 - [x] build network structure of 'res_nets_v1_50'
-- [x] Download COCO 2017 dataset
+- [x] Download COCO 2017 Dataset
+- [ ] Converting to TFRecoder
 - [ ] Use TFRecoder to load data
 
 
