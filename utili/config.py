@@ -38,7 +38,7 @@ tf.app.flags.DEFINE_string(
     'The name of the dataset to load.')
 
 tf.app.flags.DEFINE_string(
-    'dataset_split_name', 'train2014',
+    'dataset_split_name', 'train2017',
     'The name of the train/test/val split.')
 
 tf.app.flags.DEFINE_string(
