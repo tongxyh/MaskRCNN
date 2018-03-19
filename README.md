@@ -4,7 +4,9 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 
 ## TO-DO
 - [x] build network structure of 'res_nets_v1_50'
-- [ ] COCO dataset download and preprocess
+- [x] Download COCO 2017 dataset
+- [ ] Use TFRecoder to load data
+
 
 ## Step
 1. Download pretrained resnet50 model, `wget http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz` and unzip it
