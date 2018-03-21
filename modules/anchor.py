@@ -4,11 +4,25 @@ import numpy as np
 
 def anchor_generator(x,y):
     anchors = []
-    for scale in [64,128,256]:
+    for scale in [128,256,512]:
         for ratio in [0.5,1,2]:
             anchor = [x,y,scale,scale*ratio]
-    anchors.append(anchor)
+            anchors.append(anchor)
     return anchors
+
+def anchor_plane(width,height,stride):
+    K = 9
+    all_anchors = []
+
+    for x in range(width):
+        for y in range(height):
+            #shift
+            anchors = anchor_generator(0, 0)
+            for i in range(K):
+                anchors[i][0] = anchors[i][0]  + x*stride
+                anchors[i][1] = anchors[i][1] + y*stride
+            all_anchors.append(anchors)
+    return all_anchors
 
 def overlap(anchor,gt_bbox):
     x_relat = gt_bbox[0] - anchor[0]
@@ -30,6 +44,10 @@ def anchor_sample(anchors,gt_bboxes):
             iou = overlap(anchor,gt_bbox[:4])
             ious.append(iou)
 
-            if(iou > 0.7)
+            if(iou > 0.7):
+                pass
                 #positive
     pass
+
+#test
+#anchor_plane(40,60,16)
