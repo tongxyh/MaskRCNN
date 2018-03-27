@@ -3,11 +3,16 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 [Mask R-CNN](https://arxiv.org/abs/1703.06870)
 
 ## TO-DO
-- [x] build network structure of 'res_nets_v1_50'
+- [x] Build network structure of 'res_nets_v1_50'
 - [x] Download COCO 2017 Dataset & Converting to TFRecoder
-- [x] Anchor generator
+- [x] Use TFRecoder and tf.data API as input pipeline
 - [ ] Anchor sample
-- [ ] Use TFRecoder to load data
+    - [x] Anchor generator
+    - [x] Convert [x_left,y_up] to the center of the anchor
+    - [ ] Boundry Limitation
+    - [x] Anchor IoU
+        - [x] IoU test
+
 
 
 ## Step
