@@ -17,7 +17,7 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
         - [x] Rules
         - [x] 256 anchors sampled (Positive : Negative = 1 : 1)
             - [x] IoU > 0.7
-            - [x] The largest IoU with each gt_bbox
+            - [x] Anchor has the largest IoU with each gt_bbox
         - [] Speed Up
     - [] Regression Loss
     - [] Score Loss
