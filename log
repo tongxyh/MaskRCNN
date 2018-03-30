@@ -1,0 +1,3640 @@
+nohup: ignoring input
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-03-20 10:54:10.151045: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-03-20 10:54:11.319953: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:04:00.0
+totalMemory: 15.89GiB freeMemory: 15.60GiB
+2018-03-20 10:54:11.561137: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:82:00.0
+totalMemory: 15.89GiB freeMemory: 8.64GiB
+2018-03-20 10:54:11.561234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-03-20 10:54:11.561558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 
+2018-03-20 10:54:11.561578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y N 
+2018-03-20 10:54:11.561588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   N Y 
+2018-03-20 10:54:11.561603: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:04:00.0, compute capability: 6.0)
+2018-03-20 10:54:11.561614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:82:00.0, compute capability: 6.0)
+loading annotations into memory...
+Done (t=30.39s)
+creating index...
+index created!
+train2017 has 118287 images
+>> Converting image 1/118287 shard 0
+None Annotations data/coco/train2017/000000262184.jpg
+None Annotations data/coco/train2017/000000262189.jpg
+Gray Image 86
+>> Converting image 51/118287 shard 0
+None Annotations data/coco/train2017/000000262284.jpg
+>> Converting image 101/118287 shard 0
+>> Converting image 151/118287 shard 0
+>> Converting image 201/118287 shard 0
+>> Converting image 251/118287 shard 0
+None Annotations data/coco/train2017/000000262623.jpg
+None Annotations data/coco/train2017/000000000508.jpg
+>> Converting image 301/118287 shard 0
+>> Converting image 351/118287 shard 0
+None Annotations data/coco/train2017/000000524927.jpg
+>> Converting image 401/118287 shard 0
+None Annotations data/coco/train2017/000000525020.jpg
+>> Converting image 451/118287 shard 0
+Gray Image 263002
+>> Converting image 501/118287 shard 0
+>> Converting image 551/118287 shard 0
+>> Converting image 601/118287 shard 0
+None Annotations data/coco/train2017/000000001111.jpg
+>> Converting image 651/118287 shard 0
+Gray Image 525513
+>> Converting image 701/118287 shard 0
+None Annotations data/coco/train2017/000000263478.jpg
+Gray Image 1350
+>> Converting image 751/118287 shard 0
+>> Converting image 801/118287 shard 0
+None Annotations data/coco/train2017/000000001472.jpg
+None Annotations data/coco/train2017/000000000250.jpg
+>> Converting image 851/118287 shard 0
+>> Converting image 901/118287 shard 0
+>> Converting image 951/118287 shard 0
+None Annotations data/coco/train2017/000000526104.jpg
+>> Converting image 1001/118287 shard 0
+>> Converting image 1051/118287 shard 0
+None Annotations data/coco/train2017/000000001997.jpg
+None Annotations data/coco/train2017/000000526292.jpg
+Gray Image 264165
+>> Converting image 1101/118287 shard 0
+>> Converting image 1151/118287 shard 0
+>> Converting image 1201/118287 shard 0
+>> Converting image 1251/118287 shard 0
+>> Converting image 1301/118287 shard 0
+>> Converting image 1351/118287 shard 0
+>> Converting image 1401/118287 shard 0
+None Annotations data/coco/train2017/000000264720.jpg
+None Annotations data/coco/train2017/000000526890.jpg
+Gray Image 264753
+>> Converting image 1451/118287 shard 0
+>> Converting image 1501/118287 shard 0
+None Annotations data/coco/train2017/000000264886.jpg
+>> Converting image 1551/118287 shard 0
+>> Converting image 1601/118287 shard 0
+>> Converting image 1651/118287 shard 0
+None Annotations data/coco/train2017/000000265207.jpg
+>> Converting image 1701/118287 shard 0
+>> Converting image 1751/118287 shard 0
+Gray Image 3293
+>> Converting image 1801/118287 shard 0
+>> Converting image 1851/118287 shard 0
+>> Converting image 1901/118287 shard 0
+>> Converting image 1951/118287 shard 0
+None Annotations data/coco/train2017/000000003640.jpg
+None Annotations data/coco/train2017/000000003692.jpg
+>> Converting image 2001/118287 shard 0
+None Annotations data/coco/train2017/000000003799.jpg
+>> Converting image 2051/118287 shard 0
+>> Converting image 2101/118287 shard 0
+None Annotations data/coco/train2017/000000003941.jpg
+None Annotations data/coco/train2017/000000266091.jpg
+>> Converting image 2151/118287 shard 0
+None Annotations data/coco/train2017/000000401670.jpg
+>> Converting image 2201/118287 shard 0
+None Annotations data/coco/train2017/000000266274.jpg
+>> Converting image 2251/118287 shard 0
+>> Converting image 2301/118287 shard 0
+None Annotations data/coco/train2017/000000004308.jpg
+None Annotations data/coco/train2017/000000266518.jpg
+>> Converting image 2351/118287 shard 0
+None Annotations data/coco/train2017/000000266611.jpg
+None Annotations data/coco/train2017/000000004481.jpg
+>> Converting image 2401/118287 shard 0
+None Annotations data/coco/train2017/000000004517.jpg
+>> Converting image 2451/118287 shard 0
+>> Converting image 2501/118287 shard 0
+>> Converting image 2551/118287 shard 1
+>> Converting image 2601/118287 shard 1
+>> Converting image 2651/118287 shard 1
+>> Converting image 2701/118287 shard 1
+>> Converting image 2751/118287 shard 1
+None Annotations data/coco/train2017/000000267353.jpg
+>> Converting image 2801/118287 shard 1
+None Annotations data/coco/train2017/000000529578.jpg
+Gray Image 5294
+>> Converting image 2851/118287 shard 1
+>> Converting image 2901/118287 shard 1
+>> Converting image 2951/118287 shard 1
+>> Converting image 3001/118287 shard 1
+>> Converting image 3051/118287 shard 1
+>> Converting image 3101/118287 shard 1
+>> Converting image 3151/118287 shard 1
+Gray Image 268036
+>> Converting image 3201/118287 shard 1
+>> Converting image 3251/118287 shard 1
+>> Converting image 3301/118287 shard 1
+>> Converting image 3351/118287 shard 1
+>> Converting image 3401/118287 shard 1
+None Annotations data/coco/train2017/000000268496.jpg
+Gray Image 6379
+None Annotations data/coco/train2017/000000006426.jpg
+>> Converting image 3451/118287 shard 1
+Gray Image 6432
+None Annotations data/coco/train2017/000000530783.jpg
+>> Converting image 3501/118287 shard 1
+None Annotations data/coco/train2017/000000268693.jpg
+None Annotations data/coco/train2017/000000268735.jpg
+>> Converting image 3551/118287 shard 1
+None Annotations data/coco/train2017/000000530894.jpg
+None Annotations data/coco/train2017/000000268770.jpg
+>> Converting image 3601/118287 shard 1
+>> Converting image 3651/118287 shard 1
+>> Converting image 3701/118287 shard 1
+None Annotations data/coco/train2017/000000531232.jpg
+>> Converting image 3751/118287 shard 1
+>> Converting image 3801/118287 shard 1
+None Annotations data/coco/train2017/000000576354.jpg
+>> Converting image 3851/118287 shard 1
+None Annotations data/coco/train2017/000000269372.jpg
+>> Converting image 3901/118287 shard 1
+None Annotations data/coco/train2017/000000531617.jpg
+>> Converting image 3951/118287 shard 1
+>> Converting image 4001/118287 shard 1
+>> Converting image 4051/118287 shard 1
+None Annotations data/coco/train2017/000000007625.jpg
+>> Converting image 4101/118287 shard 1
+Gray Image 269858
+>> Converting image 4151/118287 shard 1
+>> Converting image 4201/118287 shard 1
+None Annotations data/coco/train2017/000000007823.jpg
+>> Converting image 4251/118287 shard 1
+>> Converting image 4301/118287 shard 1
+>> Converting image 4351/118287 shard 1
+>> Converting image 4401/118287 shard 1
+>> Converting image 4451/118287 shard 1
+>> Converting image 4501/118287 shard 1
+>> Converting image 4551/118287 shard 1
+Gray Image 532787
+>> Converting image 4601/118287 shard 1
+Gray Image 532919
+>> Converting image 4651/118287 shard 1
+>> Converting image 4701/118287 shard 1
+Gray Image 8794
+>> Converting image 4751/118287 shard 1
+>> Converting image 4801/118287 shard 1
+>> Converting image 4851/118287 shard 1
+None Annotations data/coco/train2017/000000271198.jpg
+>> Converting image 4901/118287 shard 1
+>> Converting image 4951/118287 shard 1
+>> Converting image 5001/118287 shard 1
+>> Converting image 5051/118287 shard 2
+>> Converting image 5101/118287 shard 2
+>> Converting image 5151/118287 shard 2
+None Annotations data/coco/train2017/000000533896.jpg
+>> Converting image 5201/118287 shard 2
+>> Converting image 5251/118287 shard 2
+None Annotations data/coco/train2017/000000009759.jpg
+None Annotations data/coco/train2017/000000009778.jpg
+None Annotations data/coco/train2017/000000009809.jpg
+>> Converting image 5301/118287 shard 2
+>> Converting image 5351/118287 shard 2
+>> Converting image 5401/118287 shard 2
+>> Converting image 5451/118287 shard 2
+None Annotations data/coco/train2017/000000010108.jpg
+Gray Image 10125
+>> Converting image 5501/118287 shard 2
+None Annotations data/coco/train2017/000000010263.jpg
+>> Converting image 5551/118287 shard 2
+>> Converting image 5601/118287 shard 2
+None Annotations data/coco/train2017/000000010420.jpg
+None Annotations data/coco/train2017/000000010440.jpg
+None Annotations data/coco/train2017/000000534771.jpg
+>> Converting image 5651/118287 shard 2
+>> Converting image 5701/118287 shard 2
+None Annotations data/coco/train2017/000000534918.jpg
+>> Converting image 5751/118287 shard 2
+>> Converting image 5801/118287 shard 2
+>> Converting image 5851/118287 shard 2
+>> Converting image 5901/118287 shard 2
+None Annotations data/coco/train2017/000000273123.jpg
+>> Converting image 5951/118287 shard 2
+None Annotations data/coco/train2017/000000011076.jpg
+>> Converting image 6001/118287 shard 2
+>> Converting image 6051/118287 shard 2
+>> Converting image 6101/118287 shard 2
+>> Converting image 6151/118287 shard 2
+>> Converting image 6201/118287 shard 2
+>> Converting image 6251/118287 shard 2
+>> Converting image 6301/118287 shard 2
+>> Converting image 6351/118287 shard 2
+Gray Image 11801
+>> Converting image 6401/118287 shard 2
+>> Converting image 6451/118287 shard 2
+None Annotations data/coco/train2017/000000274233.jpg
+>> Converting image 6501/118287 shard 2
+>> Converting image 6551/118287 shard 2
+>> Converting image 6601/118287 shard 2
+None Annotations data/coco/train2017/000000536587.jpg
+Gray Image 12345
+>> Converting image 6651/118287 shard 2
+>> Converting image 6701/118287 shard 2
+>> Converting image 6751/118287 shard 2
+None Annotations data/coco/train2017/000000349579.jpg
+>> Converting image 6801/118287 shard 2
+>> Converting image 6851/118287 shard 2
+>> Converting image 6901/118287 shard 2
+None Annotations data/coco/train2017/000000274957.jpg
+>> Converting image 6951/118287 shard 2
+>> Converting image 7001/118287 shard 2
+None Annotations data/coco/train2017/000000013035.jpg
+>> Converting image 7051/118287 shard 2
+Gray Image 537427
+>> Converting image 7101/118287 shard 2
+>> Converting image 7151/118287 shard 2
+>> Converting image 7201/118287 shard 2
+None Annotations data/coco/train2017/000000537684.jpg
+None Annotations data/coco/train2017/000000013466.jpg
+>> Converting image 7251/118287 shard 2
+>> Converting image 7301/118287 shard 2
+None Annotations data/coco/train2017/000000275710.jpg
+None Annotations data/coco/train2017/000000537918.jpg
+>> Converting image 7351/118287 shard 2
+>> Converting image 7401/118287 shard 2
+None Annotations data/coco/train2017/000000013789.jpg
+>> Converting image 7451/118287 shard 2
+>> Converting image 7501/118287 shard 2
+>> Converting image 7551/118287 shard 2
+None Annotations data/coco/train2017/000000276267.jpg
+>> Converting image 7601/118287 shard 3
+>> Converting image 7651/118287 shard 3
+>> Converting image 7701/118287 shard 3
+>> Converting image 7751/118287 shard 3
+None Annotations data/coco/train2017/000000276645.jpg
+>> Converting image 7801/118287 shard 3
+None Annotations data/coco/train2017/000000276731.jpg
+>> Converting image 7851/118287 shard 3
+>> Converting image 7901/118287 shard 3
+None Annotations data/coco/train2017/000000539016.jpg
+>> Converting image 7951/118287 shard 3
+>> Converting image 8001/118287 shard 3
+>> Converting image 8051/118287 shard 3
+>> Converting image 8101/118287 shard 3
+None Annotations data/coco/train2017/000000539390.jpg
+>> Converting image 8151/118287 shard 3
+None Annotations data/coco/train2017/000000277329.jpg
+>> Converting image 8201/118287 shard 3
+Gray Image 15236
+Gray Image 15286
+>> Converting image 8251/118287 shard 3
+>> Converting image 8301/118287 shard 3
+None Annotations data/coco/train2017/000000015404.jpg
+None Annotations data/coco/train2017/000000539755.jpg
+>> Converting image 8351/118287 shard 3
+>> Converting image 8401/118287 shard 3
+>> Converting image 8451/118287 shard 3
+>> Converting image 8501/118287 shard 3
+None Annotations data/coco/train2017/000000015830.jpg
+>> Converting image 8551/118287 shard 3
+>> Converting image 8601/118287 shard 3
+>> Converting image 8651/118287 shard 3
+Gray Image 540378
+None Annotations data/coco/train2017/000000540388.jpg
+>> Converting image 8701/118287 shard 3
+None Annotations data/coco/train2017/000000540476.jpg
+>> Converting image 8751/118287 shard 3
+>> Converting image 8801/118287 shard 3
+>> Converting image 8851/118287 shard 3
+Gray Image 46433
+>> Converting image 8901/118287 shard 3
+>> Converting image 8951/118287 shard 3
+>> Converting image 9001/118287 shard 3
+None Annotations data/coco/train2017/000000016689.jpg
+>> Converting image 9051/118287 shard 3
+None Annotations data/coco/train2017/000000278907.jpg
+None Annotations data/coco/train2017/000000541094.jpg
+>> Converting image 9101/118287 shard 3
+None Annotations data/coco/train2017/000000016903.jpg
+None Annotations data/coco/train2017/000000279103.jpg
+>> Converting image 9151/118287 shard 3
+>> Converting image 9201/118287 shard 3
+None Annotations data/coco/train2017/000000279263.jpg
+>> Converting image 9251/118287 shard 3
+>> Converting image 9301/118287 shard 3
+>> Converting image 9351/118287 shard 3
+>> Converting image 9401/118287 shard 3
+>> Converting image 9451/118287 shard 3
+>> Converting image 9501/118287 shard 3
+>> Converting image 9551/118287 shard 3
+>> Converting image 9601/118287 shard 3
+>> Converting image 9651/118287 shard 3
+>> Converting image 9701/118287 shard 3
+>> Converting image 9751/118287 shard 3
+>> Converting image 9801/118287 shard 3
+>> Converting image 9851/118287 shard 3
+None Annotations data/coco/train2017/000000280413.jpg
+None Annotations data/coco/train2017/000000542614.jpg
+>> Converting image 9901/118287 shard 3
+>> Converting image 9951/118287 shard 3
+>> Converting image 10001/118287 shard 3
+Gray Image 280731
+>> Converting image 10051/118287 shard 3
+None Annotations data/coco/train2017/000000280825.jpg
+>> Converting image 10101/118287 shard 4
+Gray Image 18702
+None Annotations data/coco/train2017/000000280879.jpg
+>> Converting image 10151/118287 shard 4
+>> Converting image 10201/118287 shard 4
+None Annotations data/coco/train2017/000000281035.jpg
+>> Converting image 10251/118287 shard 4
+None Annotations data/coco/train2017/000000543236.jpg
+None Annotations data/coco/train2017/000000134236.jpg
+>> Converting image 10301/118287 shard 4
+None Annotations data/coco/train2017/000000281188.jpg
+>> Converting image 10351/118287 shard 4
+>> Converting image 10401/118287 shard 4
+>> Converting image 10451/118287 shard 4
+>> Converting image 10501/118287 shard 4
+None Annotations data/coco/train2017/000000281582.jpg
+>> Converting image 10551/118287 shard 4
+>> Converting image 10601/118287 shard 4
+>> Converting image 10651/118287 shard 4
+>> Converting image 10701/118287 shard 4
+None Annotations data/coco/train2017/000000281939.jpg
+>> Converting image 10751/118287 shard 4
+None Annotations data/coco/train2017/000000544188.jpg
+>> Converting image 10801/118287 shard 4
+>> Converting image 10851/118287 shard 4
+>> Converting image 10901/118287 shard 4
+>> Converting image 10951/118287 shard 4
+None Annotations data/coco/train2017/000000544597.jpg
+>> Converting image 11001/118287 shard 4
+>> Converting image 11051/118287 shard 4
+None Annotations data/coco/train2017/000000282586.jpg
+None Annotations data/coco/train2017/000000020490.jpg
+>> Converting image 11101/118287 shard 4
+>> Converting image 11151/118287 shard 4
+None Annotations data/coco/train2017/000000172971.jpg
+>> Converting image 11201/118287 shard 4
+None Annotations data/coco/train2017/000000545006.jpg
+>> Converting image 11251/118287 shard 4
+>> Converting image 11301/118287 shard 4
+>> Converting image 11351/118287 shard 4
+None Annotations data/coco/train2017/000000283147.jpg
+None Annotations data/coco/train2017/000000545310.jpg
+>> Converting image 11401/118287 shard 4
+>> Converting image 11451/118287 shard 4
+None Annotations data/coco/train2017/000000021166.jpg
+>> Converting image 11501/118287 shard 4
+>> Converting image 11551/118287 shard 4
+None Annotations data/coco/train2017/000000021382.jpg
+>> Converting image 11601/118287 shard 4
+>> Converting image 11651/118287 shard 4
+>> Converting image 11701/118287 shard 4
+>> Converting image 11751/118287 shard 4
+>> Converting image 11801/118287 shard 4
+>> Converting image 11851/118287 shard 4
+None Annotations data/coco/train2017/000000309496.jpg
+>> Converting image 11901/118287 shard 4
+None Annotations data/coco/train2017/000000284128.jpg
+>> Converting image 11951/118287 shard 4
+None Annotations data/coco/train2017/000000022098.jpg
+>> Converting image 12001/118287 shard 4
+None Annotations data/coco/train2017/000000284351.jpg
+>> Converting image 12051/118287 shard 4
+>> Converting image 12101/118287 shard 4
+>> Converting image 12151/118287 shard 4
+None Annotations data/coco/train2017/000000022456.jpg
+>> Converting image 12201/118287 shard 4
+None Annotations data/coco/train2017/000000022559.jpg
+>> Converting image 12251/118287 shard 4
+>> Converting image 12301/118287 shard 4
+None Annotations data/coco/train2017/000000547072.jpg
+>> Converting image 12351/118287 shard 4
+>> Converting image 12401/118287 shard 4
+>> Converting image 12451/118287 shard 4
+None Annotations data/coco/train2017/000000023017.jpg
+>> Converting image 12501/118287 shard 4
+>> Converting image 12551/118287 shard 4
+>> Converting image 12601/118287 shard 5
+>> Converting image 12651/118287 shard 5
+>> Converting image 12701/118287 shard 5
+None Annotations data/coco/train2017/000000547760.jpg
+>> Converting image 12751/118287 shard 5
+None Annotations data/coco/train2017/000000285717.jpg
+None Annotations data/coco/train2017/000000547903.jpg
+>> Converting image 12801/118287 shard 5
+None Annotations data/coco/train2017/000000023648.jpg
+>> Converting image 12851/118287 shard 5
+>> Converting image 12901/118287 shard 5
+None Annotations data/coco/train2017/000000135042.jpg
+None Annotations data/coco/train2017/000000548171.jpg
+>> Converting image 12951/118287 shard 5
+>> Converting image 13001/118287 shard 5
+>> Converting image 13051/118287 shard 5
+>> Converting image 13101/118287 shard 5
+None Annotations data/coco/train2017/000000024181.jpg
+>> Converting image 13151/118287 shard 5
+>> Converting image 13201/118287 shard 5
+None Annotations data/coco/train2017/000000548690.jpg
+>> Converting image 13251/118287 shard 5
+None Annotations data/coco/train2017/000000024499.jpg
+>> Converting image 13301/118287 shard 5
+>> Converting image 13351/118287 shard 5
+Gray Image 821
+>> Converting image 13401/118287 shard 5
+None Annotations data/coco/train2017/000000549012.jpg
+>> Converting image 13451/118287 shard 5
+>> Converting image 13501/118287 shard 5
+>> Converting image 13551/118287 shard 5
+Gray Image 384910
+>> Converting image 13601/118287 shard 5
+>> Converting image 13651/118287 shard 5
+>> Converting image 13701/118287 shard 5
+Gray Image 287422
+>> Converting image 13751/118287 shard 5
+None Annotations data/coco/train2017/000000025378.jpg
+Gray Image 25404
+>> Converting image 13801/118287 shard 5
+>> Converting image 13851/118287 shard 5
+Gray Image 549879
+>> Converting image 13901/118287 shard 5
+None Annotations data/coco/train2017/000000287822.jpg
+>> Converting image 13951/118287 shard 5
+>> Converting image 14001/118287 shard 5
+>> Converting image 14051/118287 shard 5
+>> Converting image 14101/118287 shard 5
+None Annotations data/coco/train2017/000000288131.jpg
+>> Converting image 14151/118287 shard 5
+None Annotations data/coco/train2017/000000026094.jpg
+>> Converting image 14201/118287 shard 5
+>> Converting image 14251/118287 shard 5
+None Annotations data/coco/train2017/000000026266.jpg
+>> Converting image 14301/118287 shard 5
+>> Converting image 14351/118287 shard 5
+>> Converting image 14401/118287 shard 5
+None Annotations data/coco/train2017/000000550869.jpg
+None Annotations data/coco/train2017/000000550878.jpg
+>> Converting image 14451/118287 shard 5
+>> Converting image 14501/118287 shard 5
+None Annotations data/coco/train2017/000000026767.jpg
+>> Converting image 14551/118287 shard 5
+>> Converting image 14601/118287 shard 5
+None Annotations data/coco/train2017/000000289071.jpg
+>> Converting image 14651/118287 shard 5
+>> Converting image 14701/118287 shard 5
+>> Converting image 14751/118287 shard 5
+>> Converting image 14801/118287 shard 5
+None Annotations data/coco/train2017/000000551550.jpg
+>> Converting image 14851/118287 shard 5
+>> Converting image 14901/118287 shard 5
+Gray Image 27412
+>> Converting image 14951/118287 shard 5
+>> Converting image 15001/118287 shard 5
+>> Converting image 15051/118287 shard 5
+>> Converting image 15101/118287 shard 5
+None Annotations data/coco/train2017/000000289943.jpg
+>> Converting image 15151/118287 shard 6
+None Annotations data/coco/train2017/000000552135.jpg
+>> Converting image 15201/118287 shard 6
+>> Converting image 15251/118287 shard 6
+>> Converting image 15301/118287 shard 6
+None Annotations data/coco/train2017/000000028156.jpg
+>> Converting image 15351/118287 shard 6
+>> Converting image 15401/118287 shard 6
+>> Converting image 15451/118287 shard 6
+>> Converting image 15501/118287 shard 6
+None Annotations data/coco/train2017/000000552776.jpg
+>> Converting image 15551/118287 shard 6
+None Annotations data/coco/train2017/000000028645.jpg
+None Annotations data/coco/train2017/000000028662.jpg
+>> Converting image 15601/118287 shard 6
+>> Converting image 15651/118287 shard 6
+None Annotations data/coco/train2017/000000028806.jpg
+>> Converting image 15701/118287 shard 6
+None Annotations data/coco/train2017/000000291056.jpg
+>> Converting image 15751/118287 shard 6
+None Annotations data/coco/train2017/000000291149.jpg
+>> Converting image 15801/118287 shard 6
+None Annotations data/coco/train2017/000000029056.jpg
+>> Converting image 15851/118287 shard 6
+None Annotations data/coco/train2017/000000553420.jpg
+>> Converting image 15901/118287 shard 6
+>> Converting image 15951/118287 shard 6
+>> Converting image 16001/118287 shard 6
+>> Converting image 16051/118287 shard 6
+>> Converting image 16101/118287 shard 6
+None Annotations data/coco/train2017/000000029594.jpg
+>> Converting image 16151/118287 shard 6
+>> Converting image 16201/118287 shard 6
+>> Converting image 16251/118287 shard 6
+>> Converting image 16301/118287 shard 6
+>> Converting image 16351/118287 shard 6
+>> Converting image 16401/118287 shard 6
+None Annotations data/coco/train2017/000000030175.jpg
+>> Converting image 16451/118287 shard 6
+>> Converting image 16501/118287 shard 6
+>> Converting image 16551/118287 shard 6
+None Annotations data/coco/train2017/000000292572.jpg
+>> Converting image 16601/118287 shard 6
+>> Converting image 16651/118287 shard 6
+>> Converting image 16701/118287 shard 6
+>> Converting image 16751/118287 shard 6
+None Annotations data/coco/train2017/000000573113.jpg
+>> Converting image 16801/118287 shard 6
+>> Converting image 16851/118287 shard 6
+>> Converting image 16901/118287 shard 6
+None Annotations data/coco/train2017/000000442078.jpg
+>> Converting image 16951/118287 shard 6
+>> Converting image 17001/118287 shard 6
+None Annotations data/coco/train2017/000000555470.jpg
+>> Converting image 17051/118287 shard 6
+Gray Image 555583
+>> Converting image 17101/118287 shard 6
+>> Converting image 17151/118287 shard 6
+None Annotations data/coco/train2017/000000031524.jpg
+None Annotations data/coco/train2017/000000293671.jpg
+>> Converting image 17201/118287 shard 6
+>> Converting image 17251/118287 shard 6
+>> Converting image 17301/118287 shard 6
+None Annotations data/coco/train2017/000000293946.jpg
+>> Converting image 17351/118287 shard 6
+>> Converting image 17401/118287 shard 6
+None Annotations data/coco/train2017/000000031926.jpg
+>> Converting image 17451/118287 shard 6
+>> Converting image 17501/118287 shard 6
+>> Converting image 17551/118287 shard 6
+None Annotations data/coco/train2017/000000294370.jpg
+>> Converting image 17601/118287 shard 6
+None Annotations data/coco/train2017/000000294431.jpg
+>> Converting image 17651/118287 shard 7
+Gray Image 32405
+>> Converting image 17701/118287 shard 7
+>> Converting image 17751/118287 shard 7
+>> Converting image 17801/118287 shard 7
+>> Converting image 17851/118287 shard 7
+>> Converting image 17901/118287 shard 7
+>> Converting image 17951/118287 shard 7
+None Annotations data/coco/train2017/000000557263.jpg
+None Annotations data/coco/train2017/000000005500.jpg
+>> Converting image 18001/118287 shard 7
+>> Converting image 18051/118287 shard 7
+None Annotations data/coco/train2017/000000557387.jpg
+None Annotations data/coco/train2017/000000033123.jpg
+Gray Image 33127
+>> Converting image 18101/118287 shard 7
+None Annotations data/coco/train2017/000000267680.jpg
+>> Converting image 18151/118287 shard 7
+>> Converting image 18201/118287 shard 7
+Gray Image 33352
+None Annotations data/coco/train2017/000000033422.jpg
+>> Converting image 18251/118287 shard 7
+None Annotations data/coco/train2017/000000167819.jpg
+None Annotations data/coco/train2017/000000033442.jpg
+>> Converting image 18301/118287 shard 7
+None Annotations data/coco/train2017/000000033554.jpg
+>> Converting image 18351/118287 shard 7
+>> Converting image 18401/118287 shard 7
+>> Converting image 18451/118287 shard 7
+>> Converting image 18501/118287 shard 7
+>> Converting image 18551/118287 shard 7
+None Annotations data/coco/train2017/000000558269.jpg
+>> Converting image 18601/118287 shard 7
+None Annotations data/coco/train2017/000000034089.jpg
+>> Converting image 18651/118287 shard 7
+>> Converting image 18701/118287 shard 7
+>> Converting image 18751/118287 shard 7
+>> Converting image 18801/118287 shard 7
+>> Converting image 18851/118287 shard 7
+>> Converting image 18901/118287 shard 7
+>> Converting image 18951/118287 shard 7
+Gray Image 296884
+>> Converting image 19001/118287 shard 7
+>> Converting image 19051/118287 shard 7
+Gray Image 34861
+None Annotations data/coco/train2017/000000297058.jpg
+>> Converting image 19101/118287 shard 7
+None Annotations data/coco/train2017/000000559214.jpg
+None Annotations data/coco/train2017/000000034985.jpg
+>> Converting image 19151/118287 shard 7
+>> Converting image 19201/118287 shard 7
+>> Converting image 19251/118287 shard 7
+None Annotations data/coco/train2017/000000559576.jpg
+>> Converting image 19301/118287 shard 7
+Gray Image 559665
+>> Converting image 19351/118287 shard 7
+None Annotations data/coco/train2017/000000035422.jpg
+>> Converting image 19401/118287 shard 7
+None Annotations data/coco/train2017/000000297667.jpg
+>> Converting image 19451/118287 shard 7
+None Annotations data/coco/train2017/000000297736.jpg
+>> Converting image 19501/118287 shard 7
+>> Converting image 19551/118287 shard 7
+None Annotations data/coco/train2017/000000035793.jpg
+>> Converting image 19601/118287 shard 7
+Gray Image 35880
+>> Converting image 19651/118287 shard 7
+>> Converting image 19701/118287 shard 7
+None Annotations data/coco/train2017/000000298190.jpg
+Gray Image 560349
+>> Converting image 19751/118287 shard 7
+>> Converting image 19801/118287 shard 7
+>> Converting image 19851/118287 shard 7
+>> Converting image 19901/118287 shard 7
+>> Converting image 19951/118287 shard 7
+None Annotations data/coco/train2017/000000036480.jpg
+>> Converting image 20001/118287 shard 7
+>> Converting image 20051/118287 shard 7
+None Annotations data/coco/train2017/000000298836.jpg
+None Annotations data/coco/train2017/000000298840.jpg
+>> Converting image 20101/118287 shard 7
+None Annotations data/coco/train2017/000000561119.jpg
+>> Converting image 20151/118287 shard 8
+None Annotations data/coco/train2017/000000299045.jpg
+>> Converting image 20201/118287 shard 8
+>> Converting image 20251/118287 shard 8
+>> Converting image 20301/118287 shard 8
+>> Converting image 20351/118287 shard 8
+None Annotations data/coco/train2017/000000299371.jpg
+None Annotations data/coco/train2017/000000299382.jpg
+>> Converting image 20401/118287 shard 8
+None Annotations data/coco/train2017/000000299441.jpg
+>> Converting image 20451/118287 shard 8
+>> Converting image 20501/118287 shard 8
+Gray Image 561842
+>> Converting image 20551/118287 shard 8
+>> Converting image 20601/118287 shard 8
+>> Converting image 20651/118287 shard 8
+>> Converting image 20701/118287 shard 8
+None Annotations data/coco/train2017/000000037854.jpg
+>> Converting image 20751/118287 shard 8
+None Annotations data/coco/train2017/000000300090.jpg
+>> Converting image 20801/118287 shard 8
+Gray Image 300200
+None Annotations data/coco/train2017/000000562357.jpg
+>> Converting image 20851/118287 shard 8
+>> Converting image 20901/118287 shard 8
+>> Converting image 20951/118287 shard 8
+None Annotations data/coco/train2017/000000562582.jpg
+>> Converting image 21001/118287 shard 8
+>> Converting image 21051/118287 shard 8
+>> Converting image 21101/118287 shard 8
+None Annotations data/coco/train2017/000000038691.jpg
+>> Converting image 21151/118287 shard 8
+>> Converting image 21201/118287 shard 8
+None Annotations data/coco/train2017/000000300929.jpg
+None Annotations data/coco/train2017/000000563076.jpg
+>> Converting image 21251/118287 shard 8
+>> Converting image 21301/118287 shard 8
+>> Converting image 21351/118287 shard 8
+None Annotations data/coco/train2017/000000039068.jpg
+Gray Image 39068
+Gray Image 563376
+None Annotations data/coco/train2017/000000224970.jpg
+>> Converting image 21401/118287 shard 8
+Gray Image 563447
+>> Converting image 21451/118287 shard 8
+>> Converting image 21501/118287 shard 8
+>> Converting image 21551/118287 shard 8
+None Annotations data/coco/train2017/000000039475.jpg
+>> Converting image 21601/118287 shard 8
+>> Converting image 21651/118287 shard 8
+>> Converting image 21701/118287 shard 8
+Gray Image 39790
+>> Converting image 21751/118287 shard 8
+>> Converting image 21801/118287 shard 8
+Gray Image 39900
+>> Converting image 21851/118287 shard 8
+Gray Image 564314
+None Annotations data/coco/train2017/000000564317.jpg
+>> Converting image 21901/118287 shard 8
+>> Converting image 21951/118287 shard 8
+>> Converting image 22001/118287 shard 8
+>> Converting image 22051/118287 shard 8
+>> Converting image 22101/118287 shard 8
+None Annotations data/coco/train2017/000000040474.jpg
+>> Converting image 22151/118287 shard 8
+>> Converting image 22201/118287 shard 8
+>> Converting image 22251/118287 shard 8
+None Annotations data/coco/train2017/000000302945.jpg
+>> Converting image 22301/118287 shard 8
+>> Converting image 22351/118287 shard 8
+None Annotations data/coco/train2017/000000040962.jpg
+>> Converting image 22401/118287 shard 8
+>> Converting image 22451/118287 shard 8
+>> Converting image 22501/118287 shard 8
+>> Converting image 22551/118287 shard 8
+>> Converting image 22601/118287 shard 8
+>> Converting image 22651/118287 shard 8
+None Annotations data/coco/train2017/000000565807.jpg
+>> Converting image 22701/118287 shard 9
+>> Converting image 22751/118287 shard 9
+>> Converting image 22801/118287 shard 9
+None Annotations data/coco/train2017/000000566025.jpg
+None Annotations data/coco/train2017/000000303892.jpg
+>> Converting image 22851/118287 shard 9
+None Annotations data/coco/train2017/000000566103.jpg
+None Annotations data/coco/train2017/000000304036.jpg
+>> Converting image 22901/118287 shard 9
+>> Converting image 22951/118287 shard 9
+>> Converting image 23001/118287 shard 9
+>> Converting image 23051/118287 shard 9
+>> Converting image 23101/118287 shard 9
+Gray Image 566596
+None Annotations data/coco/train2017/000000042345.jpg
+>> Converting image 23151/118287 shard 9
+None Annotations data/coco/train2017/000000566670.jpg
+>> Converting image 23201/118287 shard 9
+>> Converting image 23251/118287 shard 9
+None Annotations data/coco/train2017/000000487702.jpg
+>> Converting image 23301/118287 shard 9
+>> Converting image 23351/118287 shard 9
+>> Converting image 23401/118287 shard 9
+>> Converting image 23451/118287 shard 9
+None Annotations data/coco/train2017/000000567234.jpg
+None Annotations data/coco/train2017/000000305159.jpg
+>> Converting image 23501/118287 shard 9
+>> Converting image 23551/118287 shard 9
+None Annotations data/coco/train2017/000000531488.jpg
+>> Converting image 23601/118287 shard 9
+>> Converting image 23651/118287 shard 9
+>> Converting image 23701/118287 shard 9
+>> Converting image 23751/118287 shard 9
+>> Converting image 23801/118287 shard 9
+>> Converting image 23851/118287 shard 9
+None Annotations data/coco/train2017/000000305871.jpg
+>> Converting image 23901/118287 shard 9
+>> Converting image 23951/118287 shard 9
+>> Converting image 24001/118287 shard 9
+None Annotations data/coco/train2017/000000043947.jpg
+>> Converting image 24051/118287 shard 9
+>> Converting image 24101/118287 shard 9
+>> Converting image 24151/118287 shard 9
+>> Converting image 24201/118287 shard 9
+None Annotations data/coco/train2017/000000306477.jpg
+>> Converting image 24251/118287 shard 9
+>> Converting image 24301/118287 shard 9
+None Annotations data/coco/train2017/000000568863.jpg
+>> Converting image 24351/118287 shard 9
+>> Converting image 24401/118287 shard 9
+>> Converting image 24451/118287 shard 9
+>> Converting image 24501/118287 shard 9
+>> Converting image 24551/118287 shard 9
+>> Converting image 24601/118287 shard 9
+None Annotations data/coco/train2017/000000045075.jpg
+None Annotations data/coco/train2017/000000307264.jpg
+>> Converting image 24651/118287 shard 9
+None Annotations data/coco/train2017/000000569451.jpg
+>> Converting image 24701/118287 shard 9
+>> Converting image 24751/118287 shard 9
+None Annotations data/coco/train2017/000000045335.jpg
+>> Converting image 24801/118287 shard 9
+>> Converting image 24851/118287 shard 9
+>> Converting image 24901/118287 shard 9
+None Annotations data/coco/train2017/000000045668.jpg
+>> Converting image 24951/118287 shard 9
+None Annotations data/coco/train2017/000000570045.jpg
+>> Converting image 25001/118287 shard 9
+None Annotations data/coco/train2017/000000045822.jpg
+>> Converting image 25051/118287 shard 9
+None Annotations data/coco/train2017/000000570207.jpg
+>> Converting image 25101/118287 shard 9
+>> Converting image 25151/118287 shard 9
+>> Converting image 25201/118287 shard 10
+>> Converting image 25251/118287 shard 10
+>> Converting image 25301/118287 shard 10
+>> Converting image 25351/118287 shard 10
+>> Converting image 25401/118287 shard 10
+>> Converting image 25451/118287 shard 10
+None Annotations data/coco/train2017/000000046633.jpg
+>> Converting image 25501/118287 shard 10
+None Annotations data/coco/train2017/000000308828.jpg
+None Annotations data/coco/train2017/000000138859.jpg
+>> Converting image 25551/118287 shard 10
+>> Converting image 25601/118287 shard 10
+None Annotations data/coco/train2017/000000571242.jpg
+>> Converting image 25651/118287 shard 10
+None Annotations data/coco/train2017/000000309222.jpg
+>> Converting image 25701/118287 shard 10
+Gray Image 571415
+>> Converting image 25751/118287 shard 10
+Gray Image 571503
+>> Converting image 25801/118287 shard 10
+>> Converting image 25851/118287 shard 10
+None Annotations data/coco/train2017/000000047396.jpg
+None Annotations data/coco/train2017/000000309571.jpg
+>> Converting image 25901/118287 shard 10
+>> Converting image 25951/118287 shard 10
+>> Converting image 26001/118287 shard 10
+>> Converting image 26051/118287 shard 10
+None Annotations data/coco/train2017/000000572100.jpg
+>> Converting image 26101/118287 shard 10
+>> Converting image 26151/118287 shard 10
+>> Converting image 26201/118287 shard 10
+>> Converting image 26251/118287 shard 10
+>> Converting image 26301/118287 shard 10
+None Annotations data/coco/train2017/000000572546.jpg
+>> Converting image 26351/118287 shard 10
+None Annotations data/coco/train2017/000000572585.jpg
+>> Converting image 26401/118287 shard 10
+>> Converting image 26451/118287 shard 10
+None Annotations data/coco/train2017/000000310688.jpg
+None Annotations data/coco/train2017/000000048546.jpg
+>> Converting image 26501/118287 shard 10
+>> Converting image 26551/118287 shard 10
+>> Converting image 26601/118287 shard 10
+None Annotations data/coco/train2017/000000573053.jpg
+>> Converting image 26651/118287 shard 10
+None Annotations data/coco/train2017/000000576119.jpg
+Gray Image 573179
+>> Converting image 26701/118287 shard 10
+>> Converting image 26751/118287 shard 10
+>> Converting image 26801/118287 shard 10
+>> Converting image 26851/118287 shard 10
+None Annotations data/coco/train2017/000000049255.jpg
+None Annotations data/coco/train2017/000000139284.jpg
+>> Converting image 26901/118287 shard 10
+>> Converting image 26951/118287 shard 10
+>> Converting image 27001/118287 shard 10
+>> Converting image 27051/118287 shard 10
+>> Converting image 27101/118287 shard 10
+None Annotations data/coco/train2017/000000184965.jpg
+None Annotations data/coco/train2017/000000049725.jpg
+None Annotations data/coco/train2017/000000311877.jpg
+None Annotations data/coco/train2017/000000049741.jpg
+>> Converting image 27151/118287 shard 10
+>> Converting image 27201/118287 shard 10
+None Annotations data/coco/train2017/000000049883.jpg
+>> Converting image 27251/118287 shard 10
+>> Converting image 27301/118287 shard 10
+None Annotations data/coco/train2017/000000574385.jpg
+>> Converting image 27351/118287 shard 10
+Gray Image 312288
+>> Converting image 27401/118287 shard 10
+>> Converting image 27451/118287 shard 10
+>> Converting image 27501/118287 shard 10
+>> Converting image 27551/118287 shard 10
+>> Converting image 27601/118287 shard 10
+None Annotations data/coco/train2017/000000050637.jpg
+>> Converting image 27651/118287 shard 10
+>> Converting image 27701/118287 shard 11
+Gray Image 575029
+>> Converting image 27751/118287 shard 11
+>> Converting image 27801/118287 shard 11
+>> Converting image 27851/118287 shard 11
+>> Converting image 27901/118287 shard 11
+>> Converting image 27951/118287 shard 11
+>> Converting image 28001/118287 shard 11
+>> Converting image 28051/118287 shard 11
+>> Converting image 28101/118287 shard 11
+Gray Image 313608
+>> Converting image 28151/118287 shard 11
+>> Converting image 28201/118287 shard 11
+None Annotations data/coco/train2017/000000051652.jpg
+>> Converting image 28251/118287 shard 11
+None Annotations data/coco/train2017/000000576017.jpg
+None Annotations data/coco/train2017/000000051730.jpg
+None Annotations data/coco/train2017/000000139695.jpg
+>> Converting image 28301/118287 shard 11
+>> Converting image 28351/118287 shard 11
+None Annotations data/coco/train2017/000000314068.jpg
+>> Converting image 28401/118287 shard 11
+>> Converting image 28451/118287 shard 11
+>> Converting image 28501/118287 shard 11
+>> Converting image 28551/118287 shard 11
+None Annotations data/coco/train2017/000000533006.jpg
+>> Converting image 28601/118287 shard 11
+Gray Image 576700
+>> Converting image 28651/118287 shard 11
+>> Converting image 28701/118287 shard 11
+>> Converting image 28751/118287 shard 11
+>> Converting image 28801/118287 shard 11
+Gray Image 270925
+None Annotations data/coco/train2017/000000052726.jpg
+>> Converting image 28851/118287 shard 11
+>> Converting image 28901/118287 shard 11
+None Annotations data/coco/train2017/000000379190.jpg
+Gray Image 577207
+>> Converting image 28951/118287 shard 11
+None Annotations data/coco/train2017/000000315110.jpg
+Gray Image 577265
+>> Converting image 29001/118287 shard 11
+>> Converting image 29051/118287 shard 11
+>> Converting image 29101/118287 shard 11
+>> Converting image 29151/118287 shard 11
+>> Converting image 29201/118287 shard 11
+None Annotations data/coco/train2017/000000577748.jpg
+>> Converting image 29251/118287 shard 11
+>> Converting image 29301/118287 shard 11
+>> Converting image 29351/118287 shard 11
+None Annotations data/coco/train2017/000000053733.jpg
+Gray Image 53756
+>> Converting image 29401/118287 shard 11
+>> Converting image 29451/118287 shard 11
+None Annotations data/coco/train2017/000000316091.jpg
+Gray Image 578250
+>> Converting image 29501/118287 shard 11
+>> Converting image 29551/118287 shard 11
+>> Converting image 29601/118287 shard 11
+>> Converting image 29651/118287 shard 11
+>> Converting image 29701/118287 shard 11
+>> Converting image 29751/118287 shard 11
+>> Converting image 29801/118287 shard 11
+>> Converting image 29851/118287 shard 11
+None Annotations data/coco/train2017/000000054652.jpg
+>> Converting image 29901/118287 shard 11
+>> Converting image 29951/118287 shard 11
+Gray Image 579138
+>> Converting image 30001/118287 shard 11
+Gray Image 579239
+>> Converting image 30051/118287 shard 11
+None Annotations data/coco/train2017/000000317120.jpg
+None Annotations data/coco/train2017/000000317130.jpg
+>> Converting image 30101/118287 shard 11
+>> Converting image 30151/118287 shard 11
+>> Converting image 30201/118287 shard 11
+>> Converting image 30251/118287 shard 12
+None Annotations data/coco/train2017/000000317575.jpg
+>> Converting image 30301/118287 shard 12
+None Annotations data/coco/train2017/000000055559.jpg
+None Annotations data/coco/train2017/000000055567.jpg
+>> Converting image 30351/118287 shard 12
+>> Converting image 30401/118287 shard 12
+>> Converting image 30451/118287 shard 12
+None Annotations data/coco/train2017/000000055776.jpg
+>> Converting image 30501/118287 shard 12
+>> Converting image 30551/118287 shard 12
+None Annotations data/coco/train2017/000000318144.jpg
+>> Converting image 30601/118287 shard 12
+>> Converting image 30651/118287 shard 12
+>> Converting image 30701/118287 shard 12
+>> Converting image 30751/118287 shard 12
+>> Converting image 30801/118287 shard 12
+None Annotations data/coco/train2017/000000318596.jpg
+>> Converting image 30851/118287 shard 12
+>> Converting image 30901/118287 shard 12
+>> Converting image 30951/118287 shard 12
+>> Converting image 31001/118287 shard 12
+None Annotations data/coco/train2017/000000581087.jpg
+>> Converting image 31051/118287 shard 12
+>> Converting image 31101/118287 shard 12
+>> Converting image 31151/118287 shard 12
+>> Converting image 31201/118287 shard 12
+>> Converting image 31251/118287 shard 12
+None Annotations data/coco/train2017/000000028095.jpg
+>> Converting image 31301/118287 shard 12
+>> Converting image 31351/118287 shard 12
+>> Converting image 31401/118287 shard 12
+None Annotations data/coco/train2017/000000402809.jpg
+None Annotations data/coco/train2017/000000319749.jpg
+>> Converting image 31451/118287 shard 12
+>> Converting image 31501/118287 shard 12
+>> Converting image 31551/118287 shard 12
+None Annotations data/coco/train2017/000000057977.jpg
+Gray Image 57978
+>> Converting image 31601/118287 shard 12
+>> Converting image 31651/118287 shard 12
+None Annotations data/coco/train2017/000000058133.jpg
+>> Converting image 31701/118287 shard 12
+>> Converting image 31751/118287 shard 12
+>> Converting image 31801/118287 shard 12
+Gray Image 58517
+None Annotations data/coco/train2017/000000058554.jpg
+>> Converting image 31851/118287 shard 12
+>> Converting image 31901/118287 shard 12
+>> Converting image 31951/118287 shard 12
+>> Converting image 32001/118287 shard 12
+>> Converting image 32051/118287 shard 12
+>> Converting image 32101/118287 shard 12
+>> Converting image 32151/118287 shard 12
+None Annotations data/coco/train2017/000000059250.jpg
+>> Converting image 32201/118287 shard 12
+>> Converting image 32251/118287 shard 12
+None Annotations data/coco/train2017/000000321603.jpg
+None Annotations data/coco/train2017/000000059476.jpg
+None Annotations data/coco/train2017/000000059550.jpg
+>> Converting image 32301/118287 shard 12
+None Annotations data/coco/train2017/000000359465.jpg
+>> Converting image 32351/118287 shard 12
+Gray Image 321897
+>> Converting image 32401/118287 shard 12
+None Annotations data/coco/train2017/000000577949.jpg
+>> Converting image 32451/118287 shard 12
+>> Converting image 32501/118287 shard 12
+Gray Image 60060
+None Annotations data/coco/train2017/000000315846.jpg
+>> Converting image 32551/118287 shard 12
+>> Converting image 32601/118287 shard 12
+>> Converting image 32651/118287 shard 12
+None Annotations data/coco/train2017/000000060434.jpg
+>> Converting image 32701/118287 shard 12
+>> Converting image 32751/118287 shard 13
+>> Converting image 32801/118287 shard 13
+None Annotations data/coco/train2017/000000322887.jpg
+>> Converting image 32851/118287 shard 13
+>> Converting image 32901/118287 shard 13
+None Annotations data/coco/train2017/000000061045.jpg
+Gray Image 61048
+>> Converting image 32951/118287 shard 13
+>> Converting image 33001/118287 shard 13
+>> Converting image 33051/118287 shard 13
+>> Converting image 33101/118287 shard 13
+>> Converting image 33151/118287 shard 13
+None Annotations data/coco/train2017/000000061567.jpg
+None Annotations data/coco/train2017/000000061575.jpg
+>> Converting image 33201/118287 shard 13
+None Annotations data/coco/train2017/000000272421.jpg
+>> Converting image 33251/118287 shard 13
+>> Converting image 33301/118287 shard 13
+None Annotations data/coco/train2017/000000324094.jpg
+>> Converting image 33351/118287 shard 13
+>> Converting image 33401/118287 shard 13
+>> Converting image 33451/118287 shard 13
+None Annotations data/coco/train2017/000000324460.jpg
+>> Converting image 33501/118287 shard 13
+>> Converting image 33551/118287 shard 13
+>> Converting image 33601/118287 shard 13
+>> Converting image 33651/118287 shard 13
+>> Converting image 33701/118287 shard 13
+None Annotations data/coco/train2017/000000062805.jpg
+None Annotations data/coco/train2017/000000062824.jpg
+>> Converting image 33751/118287 shard 13
+None Annotations data/coco/train2017/000000325125.jpg
+>> Converting image 33801/118287 shard 13
+>> Converting image 33851/118287 shard 13
+None Annotations data/coco/train2017/000000325357.jpg
+None Annotations data/coco/train2017/000000325368.jpg
+Gray Image 325387
+>> Converting image 33901/118287 shard 13
+>> Converting image 33951/118287 shard 13
+>> Converting image 34001/118287 shard 13
+None Annotations data/coco/train2017/000000325690.jpg
+>> Converting image 34051/118287 shard 13
+>> Converting image 34101/118287 shard 13
+>> Converting image 34151/118287 shard 13
+None Annotations data/coco/train2017/000000010654.jpg
+>> Converting image 34201/118287 shard 13
+>> Converting image 34251/118287 shard 13
+>> Converting image 34301/118287 shard 13
+>> Converting image 34351/118287 shard 13
+Gray Image 64270
+Gray Image 64332
+None Annotations data/coco/train2017/000000064356.jpg
+>> Converting image 34401/118287 shard 13
+None Annotations data/coco/train2017/000000326613.jpg
+>> Converting image 34451/118287 shard 13
+>> Converting image 34501/118287 shard 13
+None Annotations data/coco/train2017/000000326793.jpg
+>> Converting image 34551/118287 shard 13
+>> Converting image 34601/118287 shard 13
+>> Converting image 34651/118287 shard 13
+None Annotations data/coco/train2017/000000578819.jpg
+>> Converting image 34701/118287 shard 13
+>> Converting image 34751/118287 shard 13
+None Annotations data/coco/train2017/000000578852.jpg
+>> Converting image 34801/118287 shard 13
+>> Converting image 34851/118287 shard 13
+None Annotations data/coco/train2017/000000065380.jpg
+>> Converting image 34901/118287 shard 13
+>> Converting image 34951/118287 shard 13
+None Annotations data/coco/train2017/000000327802.jpg
+None Annotations data/coco/train2017/000000535233.jpg
+>> Converting image 35001/118287 shard 13
+>> Converting image 35051/118287 shard 13
+None Annotations data/coco/train2017/000000065916.jpg
+>> Converting image 35101/118287 shard 13
+None Annotations data/coco/train2017/000000328084.jpg
+None Annotations data/coco/train2017/000000328098.jpg
+>> Converting image 35151/118287 shard 13
+>> Converting image 35201/118287 shard 13
+Gray Image 316867
+None Annotations data/coco/train2017/000000579023.jpg
+>> Converting image 35251/118287 shard 14
+>> Converting image 35301/118287 shard 14
+>> Converting image 35351/118287 shard 14
+None Annotations data/coco/train2017/000000066543.jpg
+>> Converting image 35401/118287 shard 14
+Gray Image 66642
+>> Converting image 35451/118287 shard 14
+>> Converting image 35501/118287 shard 14
+>> Converting image 35551/118287 shard 14
+>> Converting image 35601/118287 shard 14
+>> Converting image 35651/118287 shard 14
+None Annotations data/coco/train2017/000000329462.jpg
+>> Converting image 35701/118287 shard 14
+>> Converting image 35751/118287 shard 14
+>> Converting image 35801/118287 shard 14
+None Annotations data/coco/train2017/000000579247.jpg
+>> Converting image 35851/118287 shard 14
+>> Converting image 35901/118287 shard 14
+>> Converting image 35951/118287 shard 14
+>> Converting image 36001/118287 shard 14
+>> Converting image 36051/118287 shard 14
+>> Converting image 36101/118287 shard 14
+>> Converting image 36151/118287 shard 14
+None Annotations data/coco/train2017/000000330535.jpg
+>> Converting image 36201/118287 shard 14
+>> Converting image 36251/118287 shard 14
+Gray Image 330736
+>> Converting image 36301/118287 shard 14
+None Annotations data/coco/train2017/000000068715.jpg
+>> Converting image 36351/118287 shard 14
+None Annotations data/coco/train2017/000000068838.jpg
+>> Converting image 36401/118287 shard 14
+>> Converting image 36451/118287 shard 14
+>> Converting image 36501/118287 shard 14
+>> Converting image 36551/118287 shard 14
+None Annotations data/coco/train2017/000000069373.jpg
+>> Converting image 36601/118287 shard 14
+None Annotations data/coco/train2017/000000331600.jpg
+None Annotations data/coco/train2017/000000069514.jpg
+>> Converting image 36651/118287 shard 14
+>> Converting image 36701/118287 shard 14
+None Annotations data/coco/train2017/000000331876.jpg
+>> Converting image 36751/118287 shard 14
+None Annotations data/coco/train2017/000000069911.jpg
+>> Converting image 36801/118287 shard 14
+>> Converting image 36851/118287 shard 14
+None Annotations data/coco/train2017/000000070125.jpg
+>> Converting image 36901/118287 shard 14
+Gray Image 361221
+>> Converting image 36951/118287 shard 14
+>> Converting image 37001/118287 shard 14
+None Annotations data/coco/train2017/000000332585.jpg
+>> Converting image 37051/118287 shard 14
+>> Converting image 37101/118287 shard 14
+>> Converting image 37151/118287 shard 14
+None Annotations data/coco/train2017/000000361323.jpg
+>> Converting image 37201/118287 shard 14
+>> Converting image 37251/118287 shard 14
+None Annotations data/coco/train2017/000000333198.jpg
+>> Converting image 37301/118287 shard 14
+>> Converting image 37351/118287 shard 14
+>> Converting image 37401/118287 shard 14
+>> Converting image 37451/118287 shard 14
+None Annotations data/coco/train2017/000000071516.jpg
+>> Converting image 37501/118287 shard 14
+>> Converting image 37551/118287 shard 14
+None Annotations data/coco/train2017/000000333841.jpg
+>> Converting image 37601/118287 shard 14
+>> Converting image 37651/118287 shard 14
+None Annotations data/coco/train2017/000000071879.jpg
+>> Converting image 37701/118287 shard 14
+>> Converting image 37751/118287 shard 14
+Gray Image 72098
+>> Converting image 37801/118287 shard 15
+>> Converting image 37851/118287 shard 15
+>> Converting image 37901/118287 shard 15
+None Annotations data/coco/train2017/000000334603.jpg
+None Annotations data/coco/train2017/000000334642.jpg
+>> Converting image 37951/118287 shard 15
+None Annotations data/coco/train2017/000000465057.jpg
+>> Converting image 38001/118287 shard 15
+>> Converting image 38051/118287 shard 15
+None Annotations data/coco/train2017/000000203191.jpg
+>> Converting image 38101/118287 shard 15
+None Annotations data/coco/train2017/000000072912.jpg
+>> Converting image 38151/118287 shard 15
+None Annotations data/coco/train2017/000000072978.jpg
+>> Converting image 38201/118287 shard 15
+>> Converting image 38251/118287 shard 15
+>> Converting image 38301/118287 shard 15
+>> Converting image 38351/118287 shard 15
+None Annotations data/coco/train2017/000000335669.jpg
+>> Converting image 38401/118287 shard 15
+None Annotations data/coco/train2017/000000405483.jpg
+>> Converting image 38451/118287 shard 15
+None Annotations data/coco/train2017/000000335826.jpg
+>> Converting image 38501/118287 shard 15
+>> Converting image 38551/118287 shard 15
+>> Converting image 38601/118287 shard 15
+>> Converting image 38651/118287 shard 15
+None Annotations data/coco/train2017/000000143425.jpg
+>> Converting image 38701/118287 shard 15
+>> Converting image 38751/118287 shard 15
+>> Converting image 38801/118287 shard 15
+>> Converting image 38851/118287 shard 15
+None Annotations data/coco/train2017/000000336777.jpg
+>> Converting image 38901/118287 shard 15
+Gray Image 124694
+None Annotations data/coco/train2017/000000336873.jpg
+>> Converting image 38951/118287 shard 15
+>> Converting image 39001/118287 shard 15
+None Annotations data/coco/train2017/000000012494.jpg
+>> Converting image 39051/118287 shard 15
+Gray Image 75052
+None Annotations data/coco/train2017/000000075083.jpg
+>> Converting image 39101/118287 shard 15
+None Annotations data/coco/train2017/000000075256.jpg
+>> Converting image 39151/118287 shard 15
+>> Converting image 39201/118287 shard 15
+None Annotations data/coco/train2017/000000337506.jpg
+None Annotations data/coco/train2017/000000075426.jpg
+None Annotations data/coco/train2017/000000075481.jpg
+>> Converting image 39251/118287 shard 15
+None Annotations data/coco/train2017/000000075493.jpg
+>> Converting image 39301/118287 shard 15
+>> Converting image 39351/118287 shard 15
+>> Converting image 39401/118287 shard 15
+None Annotations data/coco/train2017/000000012641.jpg
+>> Converting image 39451/118287 shard 15
+None Annotations data/coco/train2017/000000338067.jpg
+>> Converting image 39501/118287 shard 15
+>> Converting image 39551/118287 shard 15
+None Annotations data/coco/train2017/000000076150.jpg
+>> Converting image 39601/118287 shard 15
+None Annotations data/coco/train2017/000000037458.jpg
+>> Converting image 39651/118287 shard 15
+>> Converting image 39701/118287 shard 15
+>> Converting image 39751/118287 shard 15
+>> Converting image 39801/118287 shard 15
+>> Converting image 39851/118287 shard 15
+None Annotations data/coco/train2017/000000076923.jpg
+>> Converting image 39901/118287 shard 15
+None Annotations data/coco/train2017/000000339192.jpg
+>> Converting image 39951/118287 shard 15
+>> Converting image 40001/118287 shard 15
+>> Converting image 40051/118287 shard 15
+>> Converting image 40101/118287 shard 15
+None Annotations data/coco/train2017/000000143995.jpg
+None Annotations data/coco/train2017/000000339740.jpg
+>> Converting image 40151/118287 shard 15
+Gray Image 77709
+>> Converting image 40201/118287 shard 15
+None Annotations data/coco/train2017/000000077849.jpg
+>> Converting image 40251/118287 shard 15
+None Annotations data/coco/train2017/000000340119.jpg
+>> Converting image 40301/118287 shard 16
+>> Converting image 40351/118287 shard 16
+>> Converting image 40401/118287 shard 16
+None Annotations data/coco/train2017/000000340375.jpg
+>> Converting image 40451/118287 shard 16
+>> Converting image 40501/118287 shard 16
+>> Converting image 40551/118287 shard 16
+None Annotations data/coco/train2017/000000340781.jpg
+None Annotations data/coco/train2017/000000537397.jpg
+>> Converting image 40601/118287 shard 16
+>> Converting image 40651/118287 shard 16
+>> Converting image 40701/118287 shard 16
+None Annotations data/coco/train2017/000000078947.jpg
+>> Converting image 40751/118287 shard 16
+>> Converting image 40801/118287 shard 16
+>> Converting image 40851/118287 shard 16
+None Annotations data/coco/train2017/000000079331.jpg
+None Annotations data/coco/train2017/000000079362.jpg
+>> Converting image 40901/118287 shard 16
+>> Converting image 40951/118287 shard 16
+>> Converting image 41001/118287 shard 16
+None Annotations data/coco/train2017/000000079671.jpg
+>> Converting image 41051/118287 shard 16
+Gray Image 341892
+>> Converting image 41101/118287 shard 16
+Gray Image 342051
+None Annotations data/coco/train2017/000000079913.jpg
+>> Converting image 41151/118287 shard 16
+>> Converting image 41201/118287 shard 16
+None Annotations data/coco/train2017/000000493956.jpg
+Gray Image 204792
+>> Converting image 41251/118287 shard 16
+None Annotations data/coco/train2017/000000342335.jpg
+>> Converting image 41301/118287 shard 16
+>> Converting image 41351/118287 shard 16
+None Annotations data/coco/train2017/000000342624.jpg
+>> Converting image 41401/118287 shard 16
+>> Converting image 41451/118287 shard 16
+>> Converting image 41501/118287 shard 16
+Gray Image 342921
+None Annotations data/coco/train2017/000000342998.jpg
+None Annotations data/coco/train2017/000000343035.jpg
+>> Converting image 41551/118287 shard 16
+Gray Image 80906
+Gray Image 81003
+>> Converting image 41601/118287 shard 16
+None Annotations data/coco/train2017/000000081107.jpg
+>> Converting image 41651/118287 shard 16
+>> Converting image 41701/118287 shard 16
+>> Converting image 41751/118287 shard 16
+>> Converting image 41801/118287 shard 16
+>> Converting image 41851/118287 shard 16
+>> Converting image 41901/118287 shard 16
+>> Converting image 41951/118287 shard 16
+>> Converting image 42001/118287 shard 16
+>> Converting image 42051/118287 shard 16
+>> Converting image 42101/118287 shard 16
+>> Converting image 42151/118287 shard 16
+None Annotations data/coco/train2017/000000082388.jpg
+None Annotations data/coco/train2017/000000344618.jpg
+>> Converting image 42201/118287 shard 16
+None Annotations data/coco/train2017/000000344705.jpg
+None Annotations data/coco/train2017/000000344730.jpg
+>> Converting image 42251/118287 shard 16
+>> Converting image 42301/118287 shard 16
+None Annotations data/coco/train2017/000000082756.jpg
+>> Converting image 42351/118287 shard 16
+None Annotations data/coco/train2017/000000345063.jpg
+>> Converting image 42401/118287 shard 16
+None Annotations data/coco/train2017/000000345155.jpg
+>> Converting image 42451/118287 shard 16
+>> Converting image 42501/118287 shard 16
+None Annotations data/coco/train2017/000000083246.jpg
+None Annotations data/coco/train2017/000000345391.jpg
+>> Converting image 42551/118287 shard 16
+>> Converting image 42601/118287 shard 16
+>> Converting image 42651/118287 shard 16
+None Annotations data/coco/train2017/000000345711.jpg
+>> Converting image 42701/118287 shard 16
+>> Converting image 42751/118287 shard 16
+>> Converting image 42801/118287 shard 17
+None Annotations data/coco/train2017/000000346061.jpg
+None Annotations data/coco/train2017/000000084018.jpg
+>> Converting image 42851/118287 shard 17
+>> Converting image 42901/118287 shard 17
+>> Converting image 42951/118287 shard 17
+>> Converting image 43001/118287 shard 17
+None Annotations data/coco/train2017/000000346615.jpg
+>> Converting image 43051/118287 shard 17
+Gray Image 84582
+>> Converting image 43101/118287 shard 17
+None Annotations data/coco/train2017/000000084638.jpg
+>> Converting image 43151/118287 shard 17
+None Annotations data/coco/train2017/000000084819.jpg
+>> Converting image 43201/118287 shard 17
+None Annotations data/coco/train2017/000000347007.jpg
+>> Converting image 43251/118287 shard 17
+Gray Image 347111
+None Annotations data/coco/train2017/000000276311.jpg
+>> Converting image 43301/118287 shard 17
+>> Converting image 43351/118287 shard 17
+>> Converting image 43401/118287 shard 17
+Gray Image 85407
+>> Converting image 43451/118287 shard 17
+None Annotations data/coco/train2017/000000101623.jpg
+>> Converting image 43501/118287 shard 17
+>> Converting image 43551/118287 shard 17
+>> Converting image 43601/118287 shard 17
+>> Converting image 43651/118287 shard 17
+>> Converting image 43701/118287 shard 17
+>> Converting image 43751/118287 shard 17
+>> Converting image 43801/118287 shard 17
+>> Converting image 43851/118287 shard 17
+>> Converting image 43901/118287 shard 17
+>> Converting image 43951/118287 shard 17
+None Annotations data/coco/train2017/000000348853.jpg
+>> Converting image 44001/118287 shard 17
+None Annotations data/coco/train2017/000000086818.jpg
+None Annotations data/coco/train2017/000000086831.jpg
+>> Converting image 44051/118287 shard 17
+None Annotations data/coco/train2017/000000086836.jpg
+Gray Image 349069
+None Annotations data/coco/train2017/000000349083.jpg
+>> Converting image 44101/118287 shard 17
+None Annotations data/coco/train2017/000000349097.jpg
+>> Converting image 44151/118287 shard 17
+None Annotations data/coco/train2017/000000349352.jpg
+>> Converting image 44201/118287 shard 17
+>> Converting image 44251/118287 shard 17
+>> Converting image 44301/118287 shard 17
+Gray Image 87509
+>> Converting image 44351/118287 shard 17
+>> Converting image 44401/118287 shard 17
+>> Converting image 44451/118287 shard 17
+None Annotations data/coco/train2017/000000087847.jpg
+>> Converting image 44501/118287 shard 17
+>> Converting image 44551/118287 shard 17
+>> Converting image 44601/118287 shard 17
+None Annotations data/coco/train2017/000000350334.jpg
+>> Converting image 44651/118287 shard 17
+None Annotations data/coco/train2017/000000552870.jpg
+None Annotations data/coco/train2017/000000430665.jpg
+>> Converting image 44701/118287 shard 17
+>> Converting image 44751/118287 shard 17
+None Annotations data/coco/train2017/000000088517.jpg
+>> Converting image 44801/118287 shard 17
+>> Converting image 44851/118287 shard 17
+None Annotations data/coco/train2017/000000088768.jpg
+>> Converting image 44901/118287 shard 17
+>> Converting image 44951/118287 shard 17
+>> Converting image 45001/118287 shard 17
+None Annotations data/coco/train2017/000000529570.jpg
+>> Converting image 45051/118287 shard 17
+>> Converting image 45101/118287 shard 17
+>> Converting image 45151/118287 shard 17
+None Annotations data/coco/train2017/000000089485.jpg
+>> Converting image 45201/118287 shard 17
+>> Converting image 45251/118287 shard 17
+>> Converting image 45301/118287 shard 17
+>> Converting image 45351/118287 shard 18
+>> Converting image 45401/118287 shard 18
+None Annotations data/coco/train2017/000000090026.jpg
+>> Converting image 45451/118287 shard 18
+None Annotations data/coco/train2017/000000090171.jpg
+>> Converting image 45501/118287 shard 18
+None Annotations data/coco/train2017/000000090280.jpg
+>> Converting image 45551/118287 shard 18
+None Annotations data/coco/train2017/000000352564.jpg
+>> Converting image 45601/118287 shard 18
+None Annotations data/coco/train2017/000000160137.jpg
+>> Converting image 45651/118287 shard 18
+>> Converting image 45701/118287 shard 18
+>> Converting image 45751/118287 shard 18
+>> Converting image 45801/118287 shard 18
+>> Converting image 45851/118287 shard 18
+>> Converting image 45901/118287 shard 18
+>> Converting image 45951/118287 shard 18
+None Annotations data/coco/train2017/000000091372.jpg
+>> Converting image 46001/118287 shard 18
+None Annotations data/coco/train2017/000000091492.jpg
+>> Converting image 46051/118287 shard 18
+>> Converting image 46101/118287 shard 18
+None Annotations data/coco/train2017/000000091705.jpg
+>> Converting image 46151/118287 shard 18
+Gray Image 353952
+>> Converting image 46201/118287 shard 18
+None Annotations data/coco/train2017/000000354041.jpg
+>> Converting image 46251/118287 shard 18
+>> Converting image 46301/118287 shard 18
+None Annotations data/coco/train2017/000000102729.jpg
+>> Converting image 46351/118287 shard 18
+>> Converting image 46401/118287 shard 18
+>> Converting image 46451/118287 shard 18
+>> Converting image 46501/118287 shard 18
+None Annotations data/coco/train2017/000000092554.jpg
+None Annotations data/coco/train2017/000000092604.jpg
+>> Converting image 46551/118287 shard 18
+>> Converting image 46601/118287 shard 18
+>> Converting image 46651/118287 shard 18
+>> Converting image 46701/118287 shard 18
+>> Converting image 46751/118287 shard 18
+Gray Image 93120
+None Annotations data/coco/train2017/000000059211.jpg
+>> Converting image 46801/118287 shard 18
+>> Converting image 46851/118287 shard 18
+>> Converting image 46901/118287 shard 18
+>> Converting image 46951/118287 shard 18
+>> Converting image 47001/118287 shard 18
+>> Converting image 47051/118287 shard 18
+>> Converting image 47101/118287 shard 18
+None Annotations data/coco/train2017/000000093994.jpg
+>> Converting image 47151/118287 shard 18
+>> Converting image 47201/118287 shard 18
+None Annotations data/coco/train2017/000000094148.jpg
+>> Converting image 47251/118287 shard 18
+>> Converting image 47301/118287 shard 18
+>> Converting image 47351/118287 shard 18
+None Annotations data/coco/train2017/000000356673.jpg
+>> Converting image 47401/118287 shard 18
+None Annotations data/coco/train2017/000000356834.jpg
+>> Converting image 47451/118287 shard 18
+None Annotations data/coco/train2017/000000094792.jpg
+>> Converting image 47501/118287 shard 18
+None Annotations data/coco/train2017/000000404696.jpg
+>> Converting image 47551/118287 shard 18
+>> Converting image 47601/118287 shard 18
+>> Converting image 47651/118287 shard 18
+>> Converting image 47701/118287 shard 18
+>> Converting image 47751/118287 shard 18
+>> Converting image 47801/118287 shard 18
+>> Converting image 47851/118287 shard 19
+>> Converting image 47901/118287 shard 19
+Gray Image 95753
+None Annotations data/coco/train2017/000000103341.jpg
+None Annotations data/coco/train2017/000000090479.jpg
+None Annotations data/coco/train2017/000000357948.jpg
+>> Converting image 47951/118287 shard 19
+>> Converting image 48001/118287 shard 19
+>> Converting image 48051/118287 shard 19
+None Annotations data/coco/train2017/000000321854.jpg
+Gray Image 358281
+>> Converting image 48101/118287 shard 19
+>> Converting image 48151/118287 shard 19
+>> Converting image 48201/118287 shard 19
+>> Converting image 48251/118287 shard 19
+>> Converting image 48301/118287 shard 19
+None Annotations data/coco/train2017/000000358795.jpg
+>> Converting image 48351/118287 shard 19
+None Annotations data/coco/train2017/000000096809.jpg
+>> Converting image 48401/118287 shard 19
+None Annotations data/coco/train2017/000000096923.jpg
+None Annotations data/coco/train2017/000000359104.jpg
+>> Converting image 48451/118287 shard 19
+None Annotations data/coco/train2017/000000359184.jpg
+None Annotations data/coco/train2017/000000359207.jpg
+>> Converting image 48501/118287 shard 19
+None Annotations data/coco/train2017/000000359276.jpg
+None Annotations data/coco/train2017/000000234649.jpg
+>> Converting image 48551/118287 shard 19
+>> Converting image 48601/118287 shard 19
+>> Converting image 48651/118287 shard 19
+>> Converting image 48701/118287 shard 19
+None Annotations data/coco/train2017/000000359774.jpg
+>> Converting image 48751/118287 shard 19
+>> Converting image 48801/118287 shard 19
+None Annotations data/coco/train2017/000000097779.jpg
+None Annotations data/coco/train2017/000000097785.jpg
+>> Converting image 48851/118287 shard 19
+>> Converting image 48901/118287 shard 19
+>> Converting image 48951/118287 shard 19
+None Annotations data/coco/train2017/000000098121.jpg
+None Annotations data/coco/train2017/000000098155.jpg
+>> Converting image 49001/118287 shard 19
+None Annotations data/coco/train2017/000000098268.jpg
+>> Converting image 49051/118287 shard 19
+>> Converting image 49101/118287 shard 19
+>> Converting image 49151/118287 shard 19
+>> Converting image 49201/118287 shard 19
+None Annotations data/coco/train2017/000000098679.jpg
+None Annotations data/coco/train2017/000000016449.jpg
+>> Converting image 49251/118287 shard 19
+>> Converting image 49301/118287 shard 19
+>> Converting image 49351/118287 shard 19
+None Annotations data/coco/train2017/000000099010.jpg
+>> Converting image 49401/118287 shard 19
+>> Converting image 49451/118287 shard 19
+>> Converting image 49501/118287 shard 19
+None Annotations data/coco/train2017/000000099364.jpg
+Gray Image 361516
+None Annotations data/coco/train2017/000000191329.jpg
+>> Converting image 49551/118287 shard 19
+>> Converting image 49601/118287 shard 19
+None Annotations data/coco/train2017/000000361774.jpg
+>> Converting image 49651/118287 shard 19
+None Annotations data/coco/train2017/000000361831.jpg
+>> Converting image 49701/118287 shard 19
+>> Converting image 49751/118287 shard 19
+>> Converting image 49801/118287 shard 19
+None Annotations data/coco/train2017/000000362154.jpg
+None Annotations data/coco/train2017/000000362257.jpg
+>> Converting image 49851/118287 shard 19
+None Annotations data/coco/train2017/000000362351.jpg
+>> Converting image 49901/118287 shard 19
+>> Converting image 49951/118287 shard 19
+>> Converting image 50001/118287 shard 19
+None Annotations data/coco/train2017/000000362696.jpg
+>> Converting image 50051/118287 shard 19
+>> Converting image 50101/118287 shard 19
+None Annotations data/coco/train2017/000000362881.jpg
+>> Converting image 50151/118287 shard 19
+None Annotations data/coco/train2017/000000362986.jpg
+Gray Image 100896
+>> Converting image 50201/118287 shard 19
+None Annotations data/coco/train2017/000000101011.jpg
+>> Converting image 50251/118287 shard 19
+None Annotations data/coco/train2017/000000101073.jpg
+>> Converting image 50301/118287 shard 19
+Gray Image 363331
+>> Converting image 50351/118287 shard 20
+>> Converting image 50401/118287 shard 20
+None Annotations data/coco/train2017/000000029564.jpg
+>> Converting image 50451/118287 shard 20
+None Annotations data/coco/train2017/000000101535.jpg
+>> Converting image 50501/118287 shard 20
+>> Converting image 50551/118287 shard 20
+>> Converting image 50601/118287 shard 20
+>> Converting image 50651/118287 shard 20
+None Annotations data/coco/train2017/000000364158.jpg
+>> Converting image 50701/118287 shard 20
+None Annotations data/coco/train2017/000000148102.jpg
+>> Converting image 50751/118287 shard 20
+None Annotations data/coco/train2017/000000102316.jpg
+>> Converting image 50801/118287 shard 20
+>> Converting image 50851/118287 shard 20
+>> Converting image 50901/118287 shard 20
+>> Converting image 50951/118287 shard 20
+>> Converting image 51001/118287 shard 20
+None Annotations data/coco/train2017/000000102899.jpg
+>> Converting image 51051/118287 shard 20
+>> Converting image 51101/118287 shard 20
+>> Converting image 51151/118287 shard 20
+None Annotations data/coco/train2017/000000279350.jpg
+>> Converting image 51201/118287 shard 20
+None Annotations data/coco/train2017/000000365487.jpg
+>> Converting image 51251/118287 shard 20
+>> Converting image 51301/118287 shard 20
+None Annotations data/coco/train2017/000000365631.jpg
+Gray Image 103499
+>> Converting image 51351/118287 shard 20
+>> Converting image 51401/118287 shard 20
+>> Converting image 51451/118287 shard 20
+None Annotations data/coco/train2017/000000103910.jpg
+>> Converting image 51501/118287 shard 20
+>> Converting image 51551/118287 shard 20
+Gray Image 104124
+>> Converting image 51601/118287 shard 20
+>> Converting image 51651/118287 shard 20
+>> Converting image 51701/118287 shard 20
+>> Converting image 51751/118287 shard 20
+None Annotations data/coco/train2017/000000366810.jpg
+>> Converting image 51801/118287 shard 20
+>> Converting image 51851/118287 shard 20
+None Annotations data/coco/train2017/000000104829.jpg
+None Annotations data/coco/train2017/000000104880.jpg
+>> Converting image 51901/118287 shard 20
+>> Converting image 51951/118287 shard 20
+>> Converting image 52001/118287 shard 20
+None Annotations data/coco/train2017/000000105246.jpg
+>> Converting image 52051/118287 shard 20
+None Annotations data/coco/train2017/000000367537.jpg
+>> Converting image 52101/118287 shard 20
+>> Converting image 52151/118287 shard 20
+>> Converting image 52201/118287 shard 20
+>> Converting image 52251/118287 shard 20
+None Annotations data/coco/train2017/000000367998.jpg
+>> Converting image 52301/118287 shard 20
+Gray Image 105872
+>> Converting image 52351/118287 shard 20
+>> Converting image 52401/118287 shard 20
+>> Converting image 52451/118287 shard 20
+>> Converting image 52501/118287 shard 20
+>> Converting image 52551/118287 shard 20
+None Annotations data/coco/train2017/000000106464.jpg
+>> Converting image 52601/118287 shard 20
+None Annotations data/coco/train2017/000000368750.jpg
+>> Converting image 52651/118287 shard 20
+None Annotations data/coco/train2017/000000368884.jpg
+>> Converting image 52701/118287 shard 20
+>> Converting image 52751/118287 shard 20
+>> Converting image 52801/118287 shard 20
+>> Converting image 52851/118287 shard 20
+>> Converting image 52901/118287 shard 21
+>> Converting image 52951/118287 shard 21
+Gray Image 107450
+None Annotations data/coco/train2017/000000369618.jpg
+>> Converting image 53001/118287 shard 21
+None Annotations data/coco/train2017/000000107585.jpg
+>> Converting image 53051/118287 shard 21
+>> Converting image 53101/118287 shard 21
+None Annotations data/coco/train2017/000000498563.jpg
+Gray Image 369966
+>> Converting image 53151/118287 shard 21
+None Annotations data/coco/train2017/000000107918.jpg
+None Annotations data/coco/train2017/000000107941.jpg
+>> Converting image 53201/118287 shard 21
+Gray Image 107962
+None Annotations data/coco/train2017/000000370151.jpg
+>> Converting image 53251/118287 shard 21
+None Annotations data/coco/train2017/000000370305.jpg
+None Annotations data/coco/train2017/000000108169.jpg
+>> Converting image 53301/118287 shard 21
+>> Converting image 53351/118287 shard 21
+None Annotations data/coco/train2017/000000192817.jpg
+>> Converting image 53401/118287 shard 21
+>> Converting image 53451/118287 shard 21
+None Annotations data/coco/train2017/000000370736.jpg
+>> Converting image 53501/118287 shard 21
+None Annotations data/coco/train2017/000000108697.jpg
+>> Converting image 53551/118287 shard 21
+>> Converting image 53601/118287 shard 21
+>> Converting image 53651/118287 shard 21
+>> Converting image 53701/118287 shard 21
+None Annotations data/coco/train2017/000000371307.jpg
+>> Converting image 53751/118287 shard 21
+>> Converting image 53801/118287 shard 21
+None Annotations data/coco/train2017/000000291702.jpg
+>> Converting image 53851/118287 shard 21
+>> Converting image 53901/118287 shard 21
+>> Converting image 53951/118287 shard 21
+None Annotations data/coco/train2017/000000371863.jpg
+>> Converting image 54001/118287 shard 21
+None Annotations data/coco/train2017/000000109942.jpg
+>> Converting image 54051/118287 shard 21
+None Annotations data/coco/train2017/000000110001.jpg
+>> Converting image 54101/118287 shard 21
+>> Converting image 54151/118287 shard 21
+>> Converting image 54201/118287 shard 21
+None Annotations data/coco/train2017/000000280532.jpg
+>> Converting image 54251/118287 shard 21
+None Annotations data/coco/train2017/000000542695.jpg
+>> Converting image 54301/118287 shard 21
+>> Converting image 54351/118287 shard 21
+>> Converting image 54401/118287 shard 21
+>> Converting image 54451/118287 shard 21
+>> Converting image 54501/118287 shard 21
+Gray Image 111109
+>> Converting image 54551/118287 shard 21
+>> Converting image 54601/118287 shard 21
+None Annotations data/coco/train2017/000000111290.jpg
+>> Converting image 54651/118287 shard 21
+>> Converting image 54701/118287 shard 21
+>> Converting image 54751/118287 shard 21
+>> Converting image 54801/118287 shard 21
+None Annotations data/coco/train2017/000000111813.jpg
+>> Converting image 54851/118287 shard 21
+>> Converting image 54901/118287 shard 21
+>> Converting image 54951/118287 shard 21
+>> Converting image 55001/118287 shard 21
+>> Converting image 55051/118287 shard 21
+>> Converting image 55101/118287 shard 21
+>> Converting image 55151/118287 shard 21
+>> Converting image 55201/118287 shard 21
+>> Converting image 55251/118287 shard 21
+None Annotations data/coco/train2017/000000375096.jpg
+>> Converting image 55301/118287 shard 21
+>> Converting image 55351/118287 shard 21
+None Annotations data/coco/train2017/000000113185.jpg
+None Annotations data/coco/train2017/000000375363.jpg
+>> Converting image 55401/118287 shard 22
+>> Converting image 55451/118287 shard 22
+None Annotations data/coco/train2017/000000375611.jpg
+>> Converting image 55501/118287 shard 22
+None Annotations data/coco/train2017/000000499525.jpg
+>> Converting image 55551/118287 shard 22
+>> Converting image 55601/118287 shard 22
+>> Converting image 55651/118287 shard 22
+Gray Image 113929
+>> Converting image 55701/118287 shard 22
+>> Converting image 55751/118287 shard 22
+>> Converting image 55801/118287 shard 22
+>> Converting image 55851/118287 shard 22
+>> Converting image 55901/118287 shard 22
+None Annotations data/coco/train2017/000000114624.jpg
+>> Converting image 55951/118287 shard 22
+None Annotations data/coco/train2017/000000376835.jpg
+>> Converting image 56001/118287 shard 22
+>> Converting image 56051/118287 shard 22
+>> Converting image 56101/118287 shard 22
+None Annotations data/coco/train2017/000000377132.jpg
+>> Converting image 56151/118287 shard 22
+None Annotations data/coco/train2017/000000377234.jpg
+>> Converting image 56201/118287 shard 22
+None Annotations data/coco/train2017/000000115250.jpg
+>> Converting image 56251/118287 shard 22
+>> Converting image 56301/118287 shard 22
+>> Converting image 56351/118287 shard 22
+None Annotations data/coco/train2017/000000115566.jpg
+>> Converting image 56401/118287 shard 22
+None Annotations data/coco/train2017/000000115654.jpg
+Gray Image 377837
+>> Converting image 56451/118287 shard 22
+Gray Image 377984
+>> Converting image 56501/118287 shard 22
+>> Converting image 56551/118287 shard 22
+>> Converting image 56601/118287 shard 22
+>> Converting image 56651/118287 shard 22
+>> Converting image 56701/118287 shard 22
+>> Converting image 56751/118287 shard 22
+None Annotations data/coco/train2017/000000378632.jpg
+>> Converting image 56801/118287 shard 22
+>> Converting image 56851/118287 shard 22
+None Annotations data/coco/train2017/000000378849.jpg
+>> Converting image 56901/118287 shard 22
+None Annotations data/coco/train2017/000000379037.jpg
+>> Converting image 56951/118287 shard 22
+None Annotations data/coco/train2017/000000379138.jpg
+>> Converting image 57001/118287 shard 22
+>> Converting image 57051/118287 shard 22
+>> Converting image 57101/118287 shard 22
+>> Converting image 57151/118287 shard 22
+>> Converting image 57201/118287 shard 22
+>> Converting image 57251/118287 shard 22
+None Annotations data/coco/train2017/000000117664.jpg
+>> Converting image 57301/118287 shard 22
+>> Converting image 57351/118287 shard 22
+Gray Image 380088
+>> Converting image 57401/118287 shard 22
+>> Converting image 57451/118287 shard 22
+>> Converting image 57501/118287 shard 22
+>> Converting image 57551/118287 shard 22
+>> Converting image 57601/118287 shard 22
+>> Converting image 57651/118287 shard 22
+None Annotations data/coco/train2017/000000118615.jpg
+>> Converting image 57701/118287 shard 22
+>> Converting image 57751/118287 shard 22
+Gray Image 118895
+>> Converting image 57801/118287 shard 22
+>> Converting image 57851/118287 shard 22
+Gray Image 381270
+>> Converting image 57901/118287 shard 23
+>> Converting image 57951/118287 shard 23
+>> Converting image 58001/118287 shard 23
+None Annotations data/coco/train2017/000000119438.jpg
+>> Converting image 58051/118287 shard 23
+>> Converting image 58101/118287 shard 23
+None Annotations data/coco/train2017/000000151020.jpg
+None Annotations data/coco/train2017/000000381842.jpg
+>> Converting image 58151/118287 shard 23
+None Annotations data/coco/train2017/000000381984.jpg
+>> Converting image 58201/118287 shard 23
+>> Converting image 58251/118287 shard 23
+None Annotations data/coco/train2017/000000382115.jpg
+>> Converting image 58301/118287 shard 23
+None Annotations data/coco/train2017/000000382333.jpg
+>> Converting image 58351/118287 shard 23
+None Annotations data/coco/train2017/000000120235.jpg
+>> Converting image 58401/118287 shard 23
+>> Converting image 58451/118287 shard 23
+None Annotations data/coco/train2017/000000382656.jpg
+>> Converting image 58501/118287 shard 23
+>> Converting image 58551/118287 shard 23
+None Annotations data/coco/train2017/000000120683.jpg
+>> Converting image 58601/118287 shard 23
+>> Converting image 58651/118287 shard 23
+>> Converting image 58701/118287 shard 23
+None Annotations data/coco/train2017/000000121107.jpg
+None Annotations data/coco/train2017/000000545235.jpg
+>> Converting image 58751/118287 shard 23
+>> Converting image 58801/118287 shard 23
+None Annotations data/coco/train2017/000000383450.jpg
+>> Converting image 58851/118287 shard 23
+>> Converting image 58901/118287 shard 23
+>> Converting image 58951/118287 shard 23
+>> Converting image 59001/118287 shard 23
+>> Converting image 59051/118287 shard 23
+>> Converting image 59101/118287 shard 23
+None Annotations data/coco/train2017/000000064024.jpg
+Gray Image 122051
+>> Converting image 59151/118287 shard 23
+None Annotations data/coco/train2017/000000122159.jpg
+>> Converting image 59201/118287 shard 23
+>> Converting image 59251/118287 shard 23
+>> Converting image 59301/118287 shard 23
+>> Converting image 59351/118287 shard 23
+Gray Image 384693
+>> Converting image 59401/118287 shard 23
+Gray Image 384907
+>> Converting image 59451/118287 shard 23
+>> Converting image 59501/118287 shard 23
+>> Converting image 59551/118287 shard 23
+None Annotations data/coco/train2017/000000385265.jpg
+>> Converting image 59601/118287 shard 23
+None Annotations data/coco/train2017/000000123239.jpg
+>> Converting image 59651/118287 shard 23
+>> Converting image 59701/118287 shard 23
+None Annotations data/coco/train2017/000000123424.jpg
+Gray Image 385625
+None Annotations data/coco/train2017/000000149215.jpg
+>> Converting image 59751/118287 shard 23
+Gray Image 123539
+>> Converting image 59801/118287 shard 23
+>> Converting image 59851/118287 shard 23
+>> Converting image 59901/118287 shard 23
+>> Converting image 59951/118287 shard 23
+None Annotations data/coco/train2017/000000386200.jpg
+Gray Image 386204
+>> Converting image 60001/118287 shard 23
+None Annotations data/coco/train2017/000000124145.jpg
+>> Converting image 60051/118287 shard 23
+None Annotations data/coco/train2017/000000124240.jpg
+>> Converting image 60101/118287 shard 23
+None Annotations data/coco/train2017/000000386613.jpg
+>> Converting image 60151/118287 shard 23
+None Annotations data/coco/train2017/000000124509.jpg
+>> Converting image 60201/118287 shard 23
+>> Converting image 60251/118287 shard 23
+None Annotations data/coco/train2017/000000124780.jpg
+>> Converting image 60301/118287 shard 23
+>> Converting image 60351/118287 shard 23
+None Annotations data/coco/train2017/000000124983.jpg
+None Annotations data/coco/train2017/000000125009.jpg
+>> Converting image 60401/118287 shard 23
+None Annotations data/coco/train2017/000000125084.jpg
+>> Converting image 60451/118287 shard 24
+None Annotations data/coco/train2017/000000125182.jpg
+>> Converting image 60501/118287 shard 24
+None Annotations data/coco/train2017/000000108259.jpg
+>> Converting image 60551/118287 shard 24
+>> Converting image 60601/118287 shard 24
+>> Converting image 60651/118287 shard 24
+>> Converting image 60701/118287 shard 24
+>> Converting image 60751/118287 shard 24
+>> Converting image 60801/118287 shard 24
+None Annotations data/coco/train2017/000000125997.jpg
+>> Converting image 60851/118287 shard 24
+>> Converting image 60901/118287 shard 24
+None Annotations data/coco/train2017/000000126210.jpg
+>> Converting image 60951/118287 shard 24
+>> Converting image 61001/118287 shard 24
+>> Converting image 61051/118287 shard 24
+Gray Image 126531
+>> Converting image 61101/118287 shard 24
+None Annotations data/coco/train2017/000000388788.jpg
+>> Converting image 61151/118287 shard 24
+>> Converting image 61201/118287 shard 24
+>> Converting image 61251/118287 shard 24
+>> Converting image 61301/118287 shard 24
+Gray Image 389206
+None Annotations data/coco/train2017/000000127104.jpg
+>> Converting image 61351/118287 shard 24
+>> Converting image 61401/118287 shard 24
+None Annotations data/coco/train2017/000000195993.jpg
+>> Converting image 61451/118287 shard 24
+>> Converting image 61501/118287 shard 24
+>> Converting image 61551/118287 shard 24
+None Annotations data/coco/train2017/000000389811.jpg
+Gray Image 503640
+>> Converting image 61601/118287 shard 24
+Gray Image 389984
+>> Converting image 61651/118287 shard 24
+>> Converting image 61701/118287 shard 24
+>> Converting image 61751/118287 shard 24
+>> Converting image 61801/118287 shard 24
+>> Converting image 61851/118287 shard 24
+>> Converting image 61901/118287 shard 24
+None Annotations data/coco/train2017/000000405815.jpg
+Gray Image 390663
+>> Converting image 61951/118287 shard 24
+>> Converting image 62001/118287 shard 24
+None Annotations data/coco/train2017/000000128740.jpg
+>> Converting image 62051/118287 shard 24
+>> Converting image 62101/118287 shard 24
+>> Converting image 62151/118287 shard 24
+>> Converting image 62201/118287 shard 24
+>> Converting image 62251/118287 shard 24
+None Annotations data/coco/train2017/000000391537.jpg
+>> Converting image 62301/118287 shard 24
+>> Converting image 62351/118287 shard 24
+>> Converting image 62401/118287 shard 24
+None Annotations data/coco/train2017/000000056695.jpg
+>> Converting image 62451/118287 shard 24
+>> Converting image 62501/118287 shard 24
+None Annotations data/coco/train2017/000000129903.jpg
+None Annotations data/coco/train2017/000000129988.jpg
+>> Converting image 62551/118287 shard 24
+>> Converting image 62601/118287 shard 24
+None Annotations data/coco/train2017/000000130192.jpg
+>> Converting image 62651/118287 shard 24
+>> Converting image 62701/118287 shard 24
+None Annotations data/coco/train2017/000000392534.jpg
+>> Converting image 62751/118287 shard 24
+>> Converting image 62801/118287 shard 24
+None Annotations data/coco/train2017/000000130654.jpg
+None Annotations data/coco/train2017/000000130712.jpg
+>> Converting image 62851/118287 shard 24
+>> Converting image 62901/118287 shard 24
+>> Converting image 62951/118287 shard 25
+>> Converting image 63001/118287 shard 25
+None Annotations data/coco/train2017/000000393212.jpg
+>> Converting image 63051/118287 shard 25
+>> Converting image 63101/118287 shard 25
+Gray Image 131366
+>> Converting image 63151/118287 shard 25
+>> Converting image 63201/118287 shard 25
+None Annotations data/coco/train2017/000000393762.jpg
+>> Converting image 63251/118287 shard 25
+None Annotations data/coco/train2017/000000371482.jpg
+None Annotations data/coco/train2017/000000371484.jpg
+>> Converting image 63301/118287 shard 25
+>> Converting image 63351/118287 shard 25
+Gray Image 131942
+None Annotations data/coco/train2017/000000394126.jpg
+>> Converting image 63401/118287 shard 25
+>> Converting image 63451/118287 shard 25
+Gray Image 394322
+>> Converting image 63501/118287 shard 25
+Gray Image 394547
+>> Converting image 63551/118287 shard 25
+None Annotations data/coco/train2017/000000467050.jpg
+>> Converting image 63601/118287 shard 25
+None Annotations data/coco/train2017/000000132531.jpg
+>> Converting image 63651/118287 shard 25
+>> Converting image 63701/118287 shard 25
+Gray Image 132791
+>> Converting image 63751/118287 shard 25
+None Annotations data/coco/train2017/000000395124.jpg
+>> Converting image 63801/118287 shard 25
+None Annotations data/coco/train2017/000000395185.jpg
+>> Converting image 63851/118287 shard 25
+>> Converting image 63901/118287 shard 25
+>> Converting image 63951/118287 shard 25
+>> Converting image 64001/118287 shard 25
+>> Converting image 64051/118287 shard 25
+>> Converting image 64101/118287 shard 25
+None Annotations data/coco/train2017/000000133693.jpg
+None Annotations data/coco/train2017/000000554382.jpg
+>> Converting image 64151/118287 shard 25
+None Annotations data/coco/train2017/000000133885.jpg
+>> Converting image 64201/118287 shard 25
+None Annotations data/coco/train2017/000000396166.jpg
+>> Converting image 64251/118287 shard 25
+Gray Image 134071
+>> Converting image 64301/118287 shard 25
+Gray Image 134206
+>> Converting image 64351/118287 shard 25
+>> Converting image 64401/118287 shard 25
+>> Converting image 64451/118287 shard 25
+>> Converting image 64501/118287 shard 25
+>> Converting image 64551/118287 shard 25
+>> Converting image 64601/118287 shard 25
+Gray Image 134918
+None Annotations data/coco/train2017/000000397089.jpg
+>> Converting image 64651/118287 shard 25
+None Annotations data/coco/train2017/000000415714.jpg
+None Annotations data/coco/train2017/000000397187.jpg
+>> Converting image 64701/118287 shard 25
+None Annotations data/coco/train2017/000000397278.jpg
+None Annotations data/coco/train2017/000000397287.jpg
+>> Converting image 64751/118287 shard 25
+>> Converting image 64801/118287 shard 25
+>> Converting image 64851/118287 shard 25
+Gray Image 397575
+>> Converting image 64901/118287 shard 25
+>> Converting image 64951/118287 shard 25
+>> Converting image 65001/118287 shard 25
+None Annotations data/coco/train2017/000000135849.jpg
+>> Converting image 65051/118287 shard 25
+>> Converting image 65101/118287 shard 25
+>> Converting image 65151/118287 shard 25
+None Annotations data/coco/train2017/000000136173.jpg
+>> Converting image 65201/118287 shard 25
+None Annotations data/coco/train2017/000000398454.jpg
+>> Converting image 65251/118287 shard 25
+>> Converting image 65301/118287 shard 25
+>> Converting image 65351/118287 shard 25
+>> Converting image 65401/118287 shard 25
+None Annotations data/coco/train2017/000000136779.jpg
+>> Converting image 65451/118287 shard 26
+>> Converting image 65501/118287 shard 26
+None Annotations data/coco/train2017/000000136977.jpg
+>> Converting image 65551/118287 shard 26
+>> Converting image 65601/118287 shard 26
+None Annotations data/coco/train2017/000000507195.jpg
+>> Converting image 65651/118287 shard 26
+>> Converting image 65701/118287 shard 26
+>> Converting image 65751/118287 shard 26
+None Annotations data/coco/train2017/000000285068.jpg
+>> Converting image 65801/118287 shard 26
+>> Converting image 65851/118287 shard 26
+>> Converting image 65901/118287 shard 26
+>> Converting image 65951/118287 shard 26
+>> Converting image 66001/118287 shard 26
+None Annotations data/coco/train2017/000000400309.jpg
+>> Converting image 66051/118287 shard 26
+>> Converting image 66101/118287 shard 26
+>> Converting image 66151/118287 shard 26
+None Annotations data/coco/train2017/000000138486.jpg
+>> Converting image 66201/118287 shard 26
+>> Converting image 66251/118287 shard 26
+>> Converting image 66301/118287 shard 26
+>> Converting image 66351/118287 shard 26
+>> Converting image 66401/118287 shard 26
+None Annotations data/coco/train2017/000000401212.jpg
+>> Converting image 66451/118287 shard 26
+>> Converting image 66501/118287 shard 26
+None Annotations data/coco/train2017/000000401381.jpg
+None Annotations data/coco/train2017/000000572025.jpg
+None Annotations data/coco/train2017/000000139326.jpg
+>> Converting image 66551/118287 shard 26
+>> Converting image 66601/118287 shard 26
+None Annotations data/coco/train2017/000000401623.jpg
+>> Converting image 66651/118287 shard 26
+>> Converting image 66701/118287 shard 26
+Gray Image 401901
+>> Converting image 66751/118287 shard 26
+>> Converting image 66801/118287 shard 26
+>> Converting image 66851/118287 shard 26
+Gray Image 140092
+>> Converting image 66901/118287 shard 26
+None Annotations data/coco/train2017/000000402386.jpg
+>> Converting image 66951/118287 shard 26
+>> Converting image 67001/118287 shard 26
+>> Converting image 67051/118287 shard 26
+None Annotations data/coco/train2017/000000140603.jpg
+>> Converting image 67101/118287 shard 26
+Gray Image 140623
+Gray Image 140627
+>> Converting image 67151/118287 shard 26
+None Annotations data/coco/train2017/000000402869.jpg
+>> Converting image 67201/118287 shard 26
+None Annotations data/coco/train2017/000000067163.jpg
+None Annotations data/coco/train2017/000000140922.jpg
+None Annotations data/coco/train2017/000000403104.jpg
+None Annotations data/coco/train2017/000000140974.jpg
+>> Converting image 67251/118287 shard 26
+>> Converting image 67301/118287 shard 26
+None Annotations data/coco/train2017/000000403279.jpg
+None Annotations data/coco/train2017/000000141139.jpg
+>> Converting image 67351/118287 shard 26
+None Annotations data/coco/train2017/000000141316.jpg
+>> Converting image 67401/118287 shard 26
+>> Converting image 67451/118287 shard 26
+>> Converting image 67501/118287 shard 26
+None Annotations data/coco/train2017/000000403851.jpg
+>> Converting image 67551/118287 shard 26
+>> Converting image 67601/118287 shard 26
+Gray Image 416869
+>> Converting image 67651/118287 shard 26
+>> Converting image 67701/118287 shard 26
+>> Converting image 67751/118287 shard 26
+None Annotations data/coco/train2017/000000404462.jpg
+>> Converting image 67801/118287 shard 26
+>> Converting image 67851/118287 shard 26
+>> Converting image 67901/118287 shard 26
+>> Converting image 67951/118287 shard 26
+None Annotations data/coco/train2017/000000404871.jpg
+>> Converting image 68001/118287 shard 27
+>> Converting image 68051/118287 shard 27
+None Annotations data/coco/train2017/000000405104.jpg
+>> Converting image 68101/118287 shard 27
+None Annotations data/coco/train2017/000000143054.jpg
+>> Converting image 68151/118287 shard 27
+>> Converting image 68201/118287 shard 27
+None Annotations data/coco/train2017/000000405459.jpg
+>> Converting image 68251/118287 shard 27
+None Annotations data/coco/train2017/000000405662.jpg
+>> Converting image 68301/118287 shard 27
+>> Converting image 68351/118287 shard 27
+None Annotations data/coco/train2017/000000405856.jpg
+>> Converting image 68401/118287 shard 27
+None Annotations data/coco/train2017/000000143780.jpg
+None Annotations data/coco/train2017/000000405945.jpg
+Gray Image 406011
+None Annotations data/coco/train2017/000000406015.jpg
+>> Converting image 68451/118287 shard 27
+>> Converting image 68501/118287 shard 27
+None Annotations data/coco/train2017/000000406217.jpg
+>> Converting image 68551/118287 shard 27
+>> Converting image 68601/118287 shard 27
+Gray Image 406404
+>> Converting image 68651/118287 shard 27
+None Annotations data/coco/train2017/000000109558.jpg
+>> Converting image 68701/118287 shard 27
+None Annotations data/coco/train2017/000000144480.jpg
+None Annotations data/coco/train2017/000000406677.jpg
+None Annotations data/coco/train2017/000000406709.jpg
+>> Converting image 68751/118287 shard 27
+Gray Image 406744
+None Annotations data/coco/train2017/000000242558.jpg
+>> Converting image 68801/118287 shard 27
+>> Converting image 68851/118287 shard 27
+None Annotations data/coco/train2017/000000407030.jpg
+>> Converting image 68901/118287 shard 27
+>> Converting image 68951/118287 shard 27
+>> Converting image 69001/118287 shard 27
+>> Converting image 69051/118287 shard 27
+Gray Image 145288
+>> Converting image 69101/118287 shard 27
+>> Converting image 69151/118287 shard 27
+>> Converting image 69201/118287 shard 27
+>> Converting image 69251/118287 shard 27
+None Annotations data/coco/train2017/000000199063.jpg
+None Annotations data/coco/train2017/000000407976.jpg
+>> Converting image 69301/118287 shard 27
+>> Converting image 69351/118287 shard 27
+>> Converting image 69401/118287 shard 27
+>> Converting image 69451/118287 shard 27
+>> Converting image 69501/118287 shard 27
+None Annotations data/coco/train2017/000000505003.jpg
+>> Converting image 69551/118287 shard 27
+>> Converting image 69601/118287 shard 27
+>> Converting image 69651/118287 shard 27
+>> Converting image 69701/118287 shard 27
+>> Converting image 69751/118287 shard 27
+>> Converting image 69801/118287 shard 27
+>> Converting image 69851/118287 shard 27
+>> Converting image 69901/118287 shard 27
+None Annotations data/coco/train2017/000000243018.jpg
+>> Converting image 69951/118287 shard 27
+None Annotations data/coco/train2017/000000409614.jpg
+>> Converting image 70001/118287 shard 27
+None Annotations data/coco/train2017/000000068295.jpg
+>> Converting image 70051/118287 shard 27
+>> Converting image 70101/118287 shard 27
+None Annotations data/coco/train2017/000000409953.jpg
+>> Converting image 70151/118287 shard 27
+>> Converting image 70201/118287 shard 27
+>> Converting image 70251/118287 shard 27
+>> Converting image 70301/118287 shard 27
+>> Converting image 70351/118287 shard 27
+Gray Image 410498
+>> Converting image 70401/118287 shard 27
+None Annotations data/coco/train2017/000000148527.jpg
+>> Converting image 70451/118287 shard 27
+None Annotations data/coco/train2017/000000410743.jpg
+None Annotations data/coco/train2017/000000148622.jpg
+None Annotations data/coco/train2017/000000410797.jpg
+None Annotations data/coco/train2017/000000148703.jpg
+>> Converting image 70501/118287 shard 28
+>> Converting image 70551/118287 shard 28
+>> Converting image 70601/118287 shard 28
+>> Converting image 70651/118287 shard 28
+None Annotations data/coco/train2017/000000149102.jpg
+>> Converting image 70701/118287 shard 28
+None Annotations data/coco/train2017/000000411349.jpg
+>> Converting image 70751/118287 shard 28
+>> Converting image 70801/118287 shard 28
+>> Converting image 70851/118287 shard 28
+>> Converting image 70901/118287 shard 28
+>> Converting image 70951/118287 shard 28
+>> Converting image 71001/118287 shard 28
+>> Converting image 71051/118287 shard 28
+>> Converting image 71101/118287 shard 28
+>> Converting image 71151/118287 shard 28
+Gray Image 150354
+>> Converting image 71201/118287 shard 28
+>> Converting image 71251/118287 shard 28
+None Annotations data/coco/train2017/000000412704.jpg
+None Annotations data/coco/train2017/000000150616.jpg
+>> Converting image 71301/118287 shard 28
+>> Converting image 71351/118287 shard 28
+None Annotations data/coco/train2017/000000150779.jpg
+>> Converting image 71401/118287 shard 28
+None Annotations data/coco/train2017/000000413090.jpg
+None Annotations data/coco/train2017/000000413120.jpg
+>> Converting image 71451/118287 shard 28
+None Annotations data/coco/train2017/000000413222.jpg
+None Annotations data/coco/train2017/000000413232.jpg
+>> Converting image 71501/118287 shard 28
+>> Converting image 71551/118287 shard 28
+None Annotations data/coco/train2017/000000112605.jpg
+>> Converting image 71601/118287 shard 28
+None Annotations data/coco/train2017/000000287378.jpg
+>> Converting image 71651/118287 shard 28
+>> Converting image 71701/118287 shard 28
+>> Converting image 71751/118287 shard 28
+>> Converting image 71801/118287 shard 28
+None Annotations data/coco/train2017/000000414089.jpg
+>> Converting image 71851/118287 shard 28
+>> Converting image 71901/118287 shard 28
+Gray Image 505962
+>> Converting image 71951/118287 shard 28
+None Annotations data/coco/train2017/000000414416.jpg
+>> Converting image 72001/118287 shard 28
+>> Converting image 72051/118287 shard 28
+>> Converting image 72101/118287 shard 28
+None Annotations data/coco/train2017/000000414754.jpg
+>> Converting image 72151/118287 shard 28
+None Annotations data/coco/train2017/000000152732.jpg
+>> Converting image 72201/118287 shard 28
+None Annotations data/coco/train2017/000000152858.jpg
+>> Converting image 72251/118287 shard 28
+>> Converting image 72301/118287 shard 28
+>> Converting image 72351/118287 shard 28
+>> Converting image 72401/118287 shard 28
+>> Converting image 72451/118287 shard 28
+None Annotations data/coco/train2017/000000415659.jpg
+>> Converting image 72501/118287 shard 28
+>> Converting image 72551/118287 shard 28
+>> Converting image 72601/118287 shard 28
+>> Converting image 72651/118287 shard 28
+>> Converting image 72701/118287 shard 28
+Gray Image 154053
+>> Converting image 72751/118287 shard 28
+Gray Image 416372
+>> Converting image 72801/118287 shard 28
+None Annotations data/coco/train2017/000000154349.jpg
+>> Converting image 72851/118287 shard 28
+None Annotations data/coco/train2017/000000416555.jpg
+>> Converting image 72901/118287 shard 28
+>> Converting image 72951/118287 shard 28
+>> Converting image 73001/118287 shard 29
+>> Converting image 73051/118287 shard 29
+None Annotations data/coco/train2017/000000154885.jpg
+None Annotations data/coco/train2017/000000154924.jpg
+>> Converting image 73101/118287 shard 29
+Gray Image 155083
+>> Converting image 73151/118287 shard 29
+>> Converting image 73201/118287 shard 29
+>> Converting image 73251/118287 shard 29
+>> Converting image 73301/118287 shard 29
+None Annotations data/coco/train2017/000000417689.jpg
+>> Converting image 73351/118287 shard 29
+>> Converting image 73401/118287 shard 29
+Gray Image 155811
+None Annotations data/coco/train2017/000000200736.jpg
+>> Converting image 73451/118287 shard 29
+Gray Image 155954
+None Annotations data/coco/train2017/000000288137.jpg
+>> Converting image 73501/118287 shard 29
+>> Converting image 73551/118287 shard 29
+>> Converting image 73601/118287 shard 29
+None Annotations data/coco/train2017/000000156299.jpg
+>> Converting image 73651/118287 shard 29
+None Annotations data/coco/train2017/000000223432.jpg
+>> Converting image 73701/118287 shard 29
+>> Converting image 73751/118287 shard 29
+None Annotations data/coco/train2017/000000156606.jpg
+>> Converting image 73801/118287 shard 29
+>> Converting image 73851/118287 shard 29
+Gray Image 156878
+>> Converting image 73901/118287 shard 29
+None Annotations data/coco/train2017/000000419106.jpg
+>> Converting image 73951/118287 shard 29
+>> Converting image 74001/118287 shard 29
+>> Converting image 74051/118287 shard 29
+>> Converting image 74101/118287 shard 29
+>> Converting image 74151/118287 shard 29
+>> Converting image 74201/118287 shard 29
+>> Converting image 74251/118287 shard 29
+>> Converting image 74301/118287 shard 29
+None Annotations data/coco/train2017/000000420070.jpg
+>> Converting image 74351/118287 shard 29
+>> Converting image 74401/118287 shard 29
+>> Converting image 74451/118287 shard 29
+>> Converting image 74501/118287 shard 29
+>> Converting image 74551/118287 shard 29
+>> Converting image 74601/118287 shard 29
+None Annotations data/coco/train2017/000000158614.jpg
+>> Converting image 74651/118287 shard 29
+>> Converting image 74701/118287 shard 29
+>> Converting image 74751/118287 shard 29
+Gray Image 421195
+>> Converting image 74801/118287 shard 29
+None Annotations data/coco/train2017/000000159073.jpg
+>> Converting image 74851/118287 shard 29
+>> Converting image 74901/118287 shard 29
+>> Converting image 74951/118287 shard 29
+Gray Image 421613
+None Annotations data/coco/train2017/000000159480.jpg
+>> Converting image 75001/118287 shard 29
+None Annotations data/coco/train2017/000000421673.jpg
+>> Converting image 75051/118287 shard 29
+>> Converting image 75101/118287 shard 29
+None Annotations data/coco/train2017/000000421970.jpg
+>> Converting image 75151/118287 shard 29
+>> Converting image 75201/118287 shard 29
+None Annotations data/coco/train2017/000000160034.jpg
+>> Converting image 75251/118287 shard 29
+>> Converting image 75301/118287 shard 29
+None Annotations data/coco/train2017/000000160298.jpg
+>> Converting image 75351/118287 shard 29
+>> Converting image 75401/118287 shard 29
+>> Converting image 75451/118287 shard 29
+>> Converting image 75501/118287 shard 29
+>> Converting image 75551/118287 shard 30
+None Annotations data/coco/train2017/000000423028.jpg
+>> Converting image 75601/118287 shard 30
+>> Converting image 75651/118287 shard 30
+>> Converting image 75701/118287 shard 30
+>> Converting image 75751/118287 shard 30
+>> Converting image 75801/118287 shard 30
+None Annotations data/coco/train2017/000000039847.jpg
+>> Converting image 75851/118287 shard 30
+>> Converting image 75901/118287 shard 30
+>> Converting image 75951/118287 shard 30
+>> Converting image 76001/118287 shard 30
+None Annotations data/coco/train2017/000000162020.jpg
+>> Converting image 76051/118287 shard 30
+>> Converting image 76101/118287 shard 30
+>> Converting image 76151/118287 shard 30
+None Annotations data/coco/train2017/000000424528.jpg
+>> Converting image 76201/118287 shard 30
+None Annotations data/coco/train2017/000000162539.jpg
+>> Converting image 76251/118287 shard 30
+>> Converting image 76301/118287 shard 30
+None Annotations data/coco/train2017/000000162768.jpg
+>> Converting image 76351/118287 shard 30
+None Annotations data/coco/train2017/000000424980.jpg
+>> Converting image 76401/118287 shard 30
+>> Converting image 76451/118287 shard 30
+None Annotations data/coco/train2017/000000163055.jpg
+None Annotations data/coco/train2017/000000425263.jpg
+>> Converting image 76501/118287 shard 30
+>> Converting image 76551/118287 shard 30
+None Annotations data/coco/train2017/000000425439.jpg
+>> Converting image 76601/118287 shard 30
+>> Converting image 76651/118287 shard 30
+None Annotations data/coco/train2017/000000425670.jpg
+>> Converting image 76701/118287 shard 30
+>> Converting image 76751/118287 shard 30
+None Annotations data/coco/train2017/000000425933.jpg
+None Annotations data/coco/train2017/000000464210.jpg
+>> Converting image 76801/118287 shard 30
+>> Converting image 76851/118287 shard 30
+>> Converting image 76901/118287 shard 30
+None Annotations data/coco/train2017/000000114741.jpg
+>> Converting image 76951/118287 shard 30
+>> Converting image 77001/118287 shard 30
+Gray Image 426558
+>> Converting image 77051/118287 shard 30
+>> Converting image 77101/118287 shard 30
+>> Converting image 77151/118287 shard 30
+>> Converting image 77201/118287 shard 30
+>> Converting image 77251/118287 shard 30
+None Annotations data/coco/train2017/000000427094.jpg
+None Annotations data/coco/train2017/000000164999.jpg
+>> Converting image 77301/118287 shard 30
+>> Converting image 77351/118287 shard 30
+Gray Image 427401
+>> Converting image 77401/118287 shard 30
+>> Converting image 77451/118287 shard 30
+>> Converting image 77501/118287 shard 30
+None Annotations data/coco/train2017/000000427727.jpg
+>> Converting image 77551/118287 shard 30
+>> Converting image 77601/118287 shard 30
+None Annotations data/coco/train2017/000000427992.jpg
+>> Converting image 77651/118287 shard 30
+>> Converting image 77701/118287 shard 30
+>> Converting image 77751/118287 shard 30
+None Annotations data/coco/train2017/000000428379.jpg
+None Annotations data/coco/train2017/000000166260.jpg
+>> Converting image 77801/118287 shard 30
+None Annotations data/coco/train2017/000000428495.jpg
+>> Converting image 77851/118287 shard 30
+Gray Image 166522
+None Annotations data/coco/train2017/000000166524.jpg
+>> Converting image 77901/118287 shard 30
+>> Converting image 77951/118287 shard 30
+>> Converting image 78001/118287 shard 30
+>> Converting image 78051/118287 shard 31
+>> Converting image 78101/118287 shard 31
+None Annotations data/coco/train2017/000000354726.jpg
+None Annotations data/coco/train2017/000000167118.jpg
+>> Converting image 78151/118287 shard 31
+None Annotations data/coco/train2017/000000429386.jpg
+>> Converting image 78201/118287 shard 31
+>> Converting image 78251/118287 shard 31
+None Annotations data/coco/train2017/000000429568.jpg
+Gray Image 429633
+>> Converting image 78301/118287 shard 31
+None Annotations data/coco/train2017/000000429691.jpg
+>> Converting image 78351/118287 shard 31
+>> Converting image 78401/118287 shard 31
+>> Converting image 78451/118287 shard 31
+>> Converting image 78501/118287 shard 31
+>> Converting image 78551/118287 shard 31
+>> Converting image 78601/118287 shard 31
+>> Converting image 78651/118287 shard 31
+>> Converting image 78701/118287 shard 31
+None Annotations data/coco/train2017/000000115475.jpg
+>> Converting image 78751/118287 shard 31
+>> Converting image 78801/118287 shard 31
+>> Converting image 78851/118287 shard 31
+None Annotations data/coco/train2017/000000431026.jpg
+None Annotations data/coco/train2017/000000168905.jpg
+>> Converting image 78901/118287 shard 31
+Gray Image 431115
+>> Converting image 78951/118287 shard 31
+None Annotations data/coco/train2017/000000431234.jpg
+>> Converting image 79001/118287 shard 31
+>> Converting image 79051/118287 shard 31
+>> Converting image 79101/118287 shard 31
+>> Converting image 79151/118287 shard 31
+None Annotations data/coco/train2017/000000508844.jpg
+None Annotations data/coco/train2017/000000431692.jpg
+>> Converting image 79201/118287 shard 31
+>> Converting image 79251/118287 shard 31
+None Annotations data/coco/train2017/000000169722.jpg
+>> Converting image 79301/118287 shard 31
+>> Converting image 79351/118287 shard 31
+>> Converting image 79401/118287 shard 31
+>> Converting image 79451/118287 shard 31
+None Annotations data/coco/train2017/000000432370.jpg
+None Annotations data/coco/train2017/000000432373.jpg
+>> Converting image 79501/118287 shard 31
+>> Converting image 79551/118287 shard 31
+None Annotations data/coco/train2017/000000432647.jpg
+>> Converting image 79601/118287 shard 31
+>> Converting image 79651/118287 shard 31
+>> Converting image 79701/118287 shard 31
+>> Converting image 79751/118287 shard 31
+None Annotations data/coco/train2017/000000433129.jpg
+>> Converting image 79801/118287 shard 31
+None Annotations data/coco/train2017/000000171082.jpg
+>> Converting image 79851/118287 shard 31
+>> Converting image 79901/118287 shard 31
+>> Converting image 79951/118287 shard 31
+None Annotations data/coco/train2017/000000433546.jpg
+>> Converting image 80001/118287 shard 31
+>> Converting image 80051/118287 shard 31
+>> Converting image 80101/118287 shard 31
+None Annotations data/coco/train2017/000000433971.jpg
+>> Converting image 80151/118287 shard 31
+None Annotations data/coco/train2017/000000434129.jpg
+>> Converting image 80201/118287 shard 31
+>> Converting image 80251/118287 shard 31
+>> Converting image 80301/118287 shard 31
+>> Converting image 80351/118287 shard 31
+>> Converting image 80401/118287 shard 31
+Gray Image 509358
+Gray Image 434765
+>> Converting image 80451/118287 shard 31
+Gray Image 434837
+>> Converting image 80501/118287 shard 31
+>> Converting image 80551/118287 shard 32
+>> Converting image 80601/118287 shard 32
+Gray Image 173081
+>> Converting image 80651/118287 shard 32
+>> Converting image 80701/118287 shard 32
+None Annotations data/coco/train2017/000000435435.jpg
+>> Converting image 80751/118287 shard 32
+None Annotations data/coco/train2017/000000275245.jpg
+>> Converting image 80801/118287 shard 32
+Gray Image 173610
+>> Converting image 80851/118287 shard 32
+None Annotations data/coco/train2017/000000173685.jpg
+>> Converting image 80901/118287 shard 32
+>> Converting image 80951/118287 shard 32
+None Annotations data/coco/train2017/000000436048.jpg
+>> Converting image 81001/118287 shard 32
+>> Converting image 81051/118287 shard 32
+>> Converting image 81101/118287 shard 32
+>> Converting image 81151/118287 shard 32
+None Annotations data/coco/train2017/000000174406.jpg
+>> Converting image 81201/118287 shard 32
+>> Converting image 81251/118287 shard 32
+>> Converting image 81301/118287 shard 32
+>> Converting image 81351/118287 shard 32
+Gray Image 436984
+None Annotations data/coco/train2017/000000174902.jpg
+>> Converting image 81401/118287 shard 32
+>> Converting image 81451/118287 shard 32
+None Annotations data/coco/train2017/000000175129.jpg
+>> Converting image 81501/118287 shard 32
+None Annotations data/coco/train2017/000000175193.jpg
+>> Converting image 81551/118287 shard 32
+>> Converting image 81601/118287 shard 32
+>> Converting image 81651/118287 shard 32
+None Annotations data/coco/train2017/000000547047.jpg
+>> Converting image 81701/118287 shard 32
+Gray Image 29275
+>> Converting image 81751/118287 shard 32
+>> Converting image 81801/118287 shard 32
+>> Converting image 81851/118287 shard 32
+>> Converting image 81901/118287 shard 32
+None Annotations data/coco/train2017/000000176149.jpg
+None Annotations data/coco/train2017/000000176168.jpg
+None Annotations data/coco/train2017/000000176193.jpg
+>> Converting image 81951/118287 shard 32
+>> Converting image 82001/118287 shard 32
+Gray Image 176397
+>> Converting image 82051/118287 shard 32
+Gray Image 176483
+>> Converting image 82101/118287 shard 32
+None Annotations data/coco/train2017/000000176649.jpg
+>> Converting image 82151/118287 shard 32
+>> Converting image 82201/118287 shard 32
+>> Converting image 82251/118287 shard 32
+None Annotations data/coco/train2017/000000176943.jpg
+None Annotations data/coco/train2017/000000177014.jpg
+>> Converting image 82301/118287 shard 32
+>> Converting image 82351/118287 shard 32
+>> Converting image 82401/118287 shard 32
+>> Converting image 82451/118287 shard 32
+Gray Image 439589
+>> Converting image 82501/118287 shard 32
+>> Converting image 82551/118287 shard 32
+>> Converting image 82601/118287 shard 32
+>> Converting image 82651/118287 shard 32
+>> Converting image 82701/118287 shard 32
+None Annotations data/coco/train2017/000000440269.jpg
+>> Converting image 82751/118287 shard 32
+>> Converting image 82801/118287 shard 32
+None Annotations data/coco/train2017/000000440484.jpg
+>> Converting image 82851/118287 shard 32
+>> Converting image 82901/118287 shard 32
+>> Converting image 82951/118287 shard 32
+None Annotations data/coco/train2017/000000440771.jpg
+>> Converting image 83001/118287 shard 32
+>> Converting image 83051/118287 shard 32
+>> Converting image 83101/118287 shard 33
+>> Converting image 83151/118287 shard 33
+>> Converting image 83201/118287 shard 33
+>> Converting image 83251/118287 shard 33
+Gray Image 179405
+None Annotations data/coco/train2017/000000179430.jpg
+>> Converting image 83301/118287 shard 33
+>> Converting image 83351/118287 shard 33
+None Annotations data/coco/train2017/000000292081.jpg
+None Annotations data/coco/train2017/000000441788.jpg
+>> Converting image 83401/118287 shard 33
+None Annotations data/coco/train2017/000000441863.jpg
+>> Converting image 83451/118287 shard 33
+>> Converting image 83501/118287 shard 33
+None Annotations data/coco/train2017/000000038389.jpg
+>> Converting image 83551/118287 shard 33
+>> Converting image 83601/118287 shard 33
+>> Converting image 83651/118287 shard 33
+>> Converting image 83701/118287 shard 33
+>> Converting image 83751/118287 shard 33
+>> Converting image 83801/118287 shard 33
+>> Converting image 83851/118287 shard 33
+>> Converting image 83901/118287 shard 33
+>> Converting image 83951/118287 shard 33
+>> Converting image 84001/118287 shard 33
+None Annotations data/coco/train2017/000000443294.jpg
+>> Converting image 84051/118287 shard 33
+>> Converting image 84101/118287 shard 33
+None Annotations data/coco/train2017/000000181462.jpg
+>> Converting image 84151/118287 shard 33
+Gray Image 443689
+>> Converting image 84201/118287 shard 33
+>> Converting image 84251/118287 shard 33
+None Annotations data/coco/train2017/000000443871.jpg
+Gray Image 443909
+None Annotations data/coco/train2017/000000443941.jpg
+>> Converting image 84301/118287 shard 33
+>> Converting image 84351/118287 shard 33
+>> Converting image 84401/118287 shard 33
+Gray Image 30349
+None Annotations data/coco/train2017/000000444302.jpg
+>> Converting image 84451/118287 shard 33
+>> Converting image 84501/118287 shard 33
+>> Converting image 84551/118287 shard 33
+>> Converting image 84601/118287 shard 33
+None Annotations data/coco/train2017/000000182607.jpg
+>> Converting image 84651/118287 shard 33
+>> Converting image 84701/118287 shard 33
+>> Converting image 84751/118287 shard 33
+>> Converting image 84801/118287 shard 33
+>> Converting image 84851/118287 shard 33
+>> Converting image 84901/118287 shard 33
+>> Converting image 84951/118287 shard 33
+>> Converting image 85001/118287 shard 33
+>> Converting image 85051/118287 shard 33
+None Annotations data/coco/train2017/000000183617.jpg
+None Annotations data/coco/train2017/000000445775.jpg
+Gray Image 445845
+>> Converting image 85101/118287 shard 33
+None Annotations data/coco/train2017/000000445898.jpg
+>> Converting image 85151/118287 shard 33
+>> Converting image 85201/118287 shard 33
+>> Converting image 85251/118287 shard 33
+>> Converting image 85301/118287 shard 33
+None Annotations data/coco/train2017/000000446452.jpg
+>> Converting image 85351/118287 shard 33
+None Annotations data/coco/train2017/000000446646.jpg
+>> Converting image 85401/118287 shard 33
+>> Converting image 85451/118287 shard 33
+>> Converting image 85501/118287 shard 33
+>> Converting image 85551/118287 shard 33
+None Annotations data/coco/train2017/000000184874.jpg
+>> Converting image 85601/118287 shard 34
+Gray Image 336668
+>> Converting image 85651/118287 shard 34
+>> Converting image 85701/118287 shard 34
+>> Converting image 85751/118287 shard 34
+>> Converting image 85801/118287 shard 34
+None Annotations data/coco/train2017/000000185437.jpg
+None Annotations data/coco/train2017/000000447701.jpg
+>> Converting image 85851/118287 shard 34
+Gray Image 185639
+>> Converting image 85901/118287 shard 34
+>> Converting image 85951/118287 shard 34
+>> Converting image 86001/118287 shard 34
+>> Converting image 86051/118287 shard 34
+>> Converting image 86101/118287 shard 34
+>> Converting image 86151/118287 shard 34
+>> Converting image 86201/118287 shard 34
+None Annotations data/coco/train2017/000000186441.jpg
+>> Converting image 86251/118287 shard 34
+>> Converting image 86301/118287 shard 34
+>> Converting image 86351/118287 shard 34
+None Annotations data/coco/train2017/000000380651.jpg
+>> Converting image 86401/118287 shard 34
+Gray Image 186888
+None Annotations data/coco/train2017/000000449082.jpg
+>> Converting image 86451/118287 shard 34
+>> Converting image 86501/118287 shard 34
+None Annotations data/coco/train2017/000000449316.jpg
+>> Converting image 86551/118287 shard 34
+>> Converting image 86601/118287 shard 34
+None Annotations data/coco/train2017/000000449546.jpg
+>> Converting image 86651/118287 shard 34
+>> Converting image 86701/118287 shard 34
+>> Converting image 86751/118287 shard 34
+Gray Image 449901
+>> Converting image 86801/118287 shard 34
+None Annotations data/coco/train2017/000000187882.jpg
+>> Converting image 86851/118287 shard 34
+None Annotations data/coco/train2017/000000187934.jpg
+None Annotations data/coco/train2017/000000450098.jpg
+>> Converting image 86901/118287 shard 34
+>> Converting image 86951/118287 shard 34
+None Annotations data/coco/train2017/000000450343.jpg
+>> Converting image 87001/118287 shard 34
+>> Converting image 87051/118287 shard 34
+>> Converting image 87101/118287 shard 34
+Gray Image 450674
+>> Converting image 87151/118287 shard 34
+None Annotations data/coco/train2017/000000188685.jpg
+>> Converting image 87201/118287 shard 34
+None Annotations data/coco/train2017/000000188832.jpg
+>> Converting image 87251/118287 shard 34
+Gray Image 451074
+Gray Image 451095
+>> Converting image 87301/118287 shard 34
+>> Converting image 87351/118287 shard 34
+>> Converting image 87401/118287 shard 34
+None Annotations data/coco/train2017/000000451373.jpg
+>> Converting image 87451/118287 shard 34
+>> Converting image 87501/118287 shard 34
+>> Converting image 87551/118287 shard 34
+>> Converting image 87601/118287 shard 34
+None Annotations data/coco/train2017/000000189740.jpg
+>> Converting image 87651/118287 shard 34
+>> Converting image 87701/118287 shard 34
+>> Converting image 87751/118287 shard 34
+Gray Image 293833
+>> Converting image 87801/118287 shard 34
+>> Converting image 87851/118287 shard 34
+>> Converting image 87901/118287 shard 34
+None Annotations data/coco/train2017/000000452652.jpg
+>> Converting image 87951/118287 shard 34
+None Annotations data/coco/train2017/000000452746.jpg
+>> Converting image 88001/118287 shard 34
+None Annotations data/coco/train2017/000000452821.jpg
+>> Converting image 88051/118287 shard 34
+>> Converting image 88101/118287 shard 35
+None Annotations data/coco/train2017/000000337653.jpg
+None Annotations data/coco/train2017/000000453087.jpg
+>> Converting image 88151/118287 shard 35
+>> Converting image 88201/118287 shard 35
+None Annotations data/coco/train2017/000000453286.jpg
+None Annotations data/coco/train2017/000000453348.jpg
+>> Converting image 88251/118287 shard 35
+>> Converting image 88301/118287 shard 35
+>> Converting image 88351/118287 shard 35
+None Annotations data/coco/train2017/000000453566.jpg
+None Annotations data/coco/train2017/000000191501.jpg
+>> Converting image 88401/118287 shard 35
+None Annotations data/coco/train2017/000000191661.jpg
+>> Converting image 88451/118287 shard 35
+>> Converting image 88501/118287 shard 35
+Gray Image 454000
+>> Converting image 88551/118287 shard 35
+>> Converting image 88601/118287 shard 35
+None Annotations data/coco/train2017/000000192062.jpg
+None Annotations data/coco/train2017/000000454230.jpg
+>> Converting image 88651/118287 shard 35
+>> Converting image 88701/118287 shard 35
+>> Converting image 88751/118287 shard 35
+>> Converting image 88801/118287 shard 35
+>> Converting image 88851/118287 shard 35
+None Annotations data/coco/train2017/000000454827.jpg
+None Annotations data/coco/train2017/000000192764.jpg
+>> Converting image 88901/118287 shard 35
+>> Converting image 88951/118287 shard 35
+None Annotations data/coco/train2017/000000455075.jpg
+None Annotations data/coco/train2017/000000192974.jpg
+>> Converting image 89001/118287 shard 35
+None Annotations data/coco/train2017/000000193077.jpg
+>> Converting image 89051/118287 shard 35
+>> Converting image 89101/118287 shard 35
+>> Converting image 89151/118287 shard 35
+None Annotations data/coco/train2017/000000193451.jpg
+>> Converting image 89201/118287 shard 35
+>> Converting image 89251/118287 shard 35
+None Annotations data/coco/train2017/000000193631.jpg
+>> Converting image 89301/118287 shard 35
+None Annotations data/coco/train2017/000000193704.jpg
+None Annotations data/coco/train2017/000000193732.jpg
+None Annotations data/coco/train2017/000000455882.jpg
+>> Converting image 89351/118287 shard 35
+None Annotations data/coco/train2017/000000181035.jpg
+None Annotations data/coco/train2017/000000399262.jpg
+>> Converting image 89401/118287 shard 35
+>> Converting image 89451/118287 shard 35
+>> Converting image 89501/118287 shard 35
+>> Converting image 89551/118287 shard 35
+None Annotations data/coco/train2017/000000317283.jpg
+>> Converting image 89601/118287 shard 35
+>> Converting image 89651/118287 shard 35
+None Annotations data/coco/train2017/000000194574.jpg
+>> Converting image 89701/118287 shard 35
+>> Converting image 89751/118287 shard 35
+>> Converting image 89801/118287 shard 35
+None Annotations data/coco/train2017/000000194897.jpg
+>> Converting image 89851/118287 shard 35
+None Annotations data/coco/train2017/000000457219.jpg
+>> Converting image 89901/118287 shard 35
+>> Converting image 89951/118287 shard 35
+None Annotations data/coco/train2017/000000195266.jpg
+None Annotations data/coco/train2017/000000195286.jpg
+>> Converting image 90001/118287 shard 35
+>> Converting image 90051/118287 shard 35
+>> Converting image 90101/118287 shard 35
+None Annotations data/coco/train2017/000000195595.jpg
+Gray Image 457741
+>> Converting image 90151/118287 shard 35
+>> Converting image 90201/118287 shard 35
+>> Converting image 90251/118287 shard 35
+Gray Image 458073
+>> Converting image 90301/118287 shard 35
+>> Converting image 90351/118287 shard 35
+>> Converting image 90401/118287 shard 35
+>> Converting image 90451/118287 shard 35
+None Annotations data/coco/train2017/000000458540.jpg
+>> Converting image 90501/118287 shard 35
+None Annotations data/coco/train2017/000000207313.jpg
+>> Converting image 90551/118287 shard 35
+None Annotations data/coco/train2017/000000196701.jpg
+>> Converting image 90601/118287 shard 35
+>> Converting image 90651/118287 shard 36
+None Annotations data/coco/train2017/000000267229.jpg
+>> Converting image 90701/118287 shard 36
+>> Converting image 90751/118287 shard 36
+>> Converting image 90801/118287 shard 36
+None Annotations data/coco/train2017/000000459408.jpg
+>> Converting image 90851/118287 shard 36
+None Annotations data/coco/train2017/000000459590.jpg
+>> Converting image 90901/118287 shard 36
+>> Converting image 90951/118287 shard 36
+>> Converting image 91001/118287 shard 36
+None Annotations data/coco/train2017/000000197774.jpg
+>> Converting image 91051/118287 shard 36
+>> Converting image 91101/118287 shard 36
+None Annotations data/coco/train2017/000000198037.jpg
+>> Converting image 91151/118287 shard 36
+>> Converting image 91201/118287 shard 36
+>> Converting image 91251/118287 shard 36
+>> Converting image 91301/118287 shard 36
+None Annotations data/coco/train2017/000000198514.jpg
+>> Converting image 91351/118287 shard 36
+>> Converting image 91401/118287 shard 36
+>> Converting image 91451/118287 shard 36
+>> Converting image 91501/118287 shard 36
+>> Converting image 91551/118287 shard 36
+>> Converting image 91601/118287 shard 36
+>> Converting image 91651/118287 shard 36
+>> Converting image 91701/118287 shard 36
+>> Converting image 91751/118287 shard 36
+>> Converting image 91801/118287 shard 36
+>> Converting image 91851/118287 shard 36
+>> Converting image 91901/118287 shard 36
+>> Converting image 91951/118287 shard 36
+>> Converting image 92001/118287 shard 36
+>> Converting image 92051/118287 shard 36
+>> Converting image 92101/118287 shard 36
+>> Converting image 92151/118287 shard 36
+>> Converting image 92201/118287 shard 36
+>> Converting image 92251/118287 shard 36
+>> Converting image 92301/118287 shard 36
+>> Converting image 92351/118287 shard 36
+>> Converting image 92401/118287 shard 36
+>> Converting image 92451/118287 shard 36
+Gray Image 463454
+>> Converting image 92501/118287 shard 36
+>> Converting image 92551/118287 shard 36
+>> Converting image 92601/118287 shard 36
+None Annotations data/coco/train2017/000000201632.jpg
+>> Converting image 92651/118287 shard 36
+>> Converting image 92701/118287 shard 36
+>> Converting image 92751/118287 shard 36
+>> Converting image 92801/118287 shard 36
+None Annotations data/coco/train2017/000000464261.jpg
+None Annotations data/coco/train2017/000000464296.jpg
+>> Converting image 92851/118287 shard 36
+>> Converting image 92901/118287 shard 36
+None Annotations data/coco/train2017/000000252194.jpg
+>> Converting image 92951/118287 shard 36
+>> Converting image 93001/118287 shard 36
+>> Converting image 93051/118287 shard 36
+>> Converting image 93101/118287 shard 36
+None Annotations data/coco/train2017/000000444783.jpg
+None Annotations data/coco/train2017/000000202848.jpg
+>> Converting image 93151/118287 shard 37
+None Annotations data/coco/train2017/000000015318.jpg
+>> Converting image 93201/118287 shard 37
+None Annotations data/coco/train2017/000000465211.jpg
+None Annotations data/coco/train2017/000000465218.jpg
+>> Converting image 93251/118287 shard 37
+None Annotations data/coco/train2017/000000203221.jpg
+>> Converting image 93301/118287 shard 37
+>> Converting image 93351/118287 shard 37
+>> Converting image 93401/118287 shard 37
+>> Converting image 93451/118287 shard 37
+None Annotations data/coco/train2017/000000203652.jpg
+None Annotations data/coco/train2017/000000252406.jpg
+>> Converting image 93501/118287 shard 37
+None Annotations data/coco/train2017/000000514557.jpg
+>> Converting image 93551/118287 shard 37
+>> Converting image 93601/118287 shard 37
+>> Converting image 93651/118287 shard 37
+Gray Image 470933
+>> Converting image 93701/118287 shard 37
+>> Converting image 93751/118287 shard 37
+None Annotations data/coco/train2017/000000466511.jpg
+None Annotations data/coco/train2017/000000204435.jpg
+>> Converting image 93801/118287 shard 37
+>> Converting image 93851/118287 shard 37
+>> Converting image 93901/118287 shard 37
+None Annotations data/coco/train2017/000000466935.jpg
+>> Converting image 93951/118287 shard 37
+None Annotations data/coco/train2017/000000466958.jpg
+>> Converting image 94001/118287 shard 37
+>> Converting image 94051/118287 shard 37
+>> Converting image 94101/118287 shard 37
+>> Converting image 94151/118287 shard 37
+>> Converting image 94201/118287 shard 37
+Gray Image 205486
+None Annotations data/coco/train2017/000000382191.jpg
+>> Converting image 94251/118287 shard 37
+>> Converting image 94301/118287 shard 37
+>> Converting image 94351/118287 shard 37
+Gray Image 205782
+>> Converting image 94401/118287 shard 37
+None Annotations data/coco/train2017/000000468064.jpg
+>> Converting image 94451/118287 shard 37
+>> Converting image 94501/118287 shard 37
+>> Converting image 94551/118287 shard 37
+>> Converting image 94601/118287 shard 37
+>> Converting image 94651/118287 shard 37
+>> Converting image 94701/118287 shard 37
+>> Converting image 94751/118287 shard 37
+None Annotations data/coco/train2017/000000468935.jpg
+>> Converting image 94801/118287 shard 37
+>> Converting image 94851/118287 shard 37
+>> Converting image 94901/118287 shard 37
+>> Converting image 94951/118287 shard 37
+>> Converting image 95001/118287 shard 37
+Gray Image 207339
+>> Converting image 95051/118287 shard 37
+>> Converting image 95101/118287 shard 37
+>> Converting image 95151/118287 shard 37
+>> Converting image 95201/118287 shard 37
+>> Converting image 95251/118287 shard 37
+>> Converting image 95301/118287 shard 37
+>> Converting image 95351/118287 shard 37
+>> Converting image 95401/118287 shard 37
+Gray Image 470442
+>> Converting image 95451/118287 shard 37
+>> Converting image 95501/118287 shard 37
+None Annotations data/coco/train2017/000000470672.jpg
+>> Converting image 95551/118287 shard 37
+>> Converting image 95601/118287 shard 37
+None Annotations data/coco/train2017/000000208708.jpg
+>> Converting image 95651/118287 shard 38
+>> Converting image 95701/118287 shard 38
+>> Converting image 95751/118287 shard 38
+>> Converting image 95801/118287 shard 38
+>> Converting image 95851/118287 shard 38
+>> Converting image 95901/118287 shard 38
+None Annotations data/coco/train2017/000000209420.jpg
+>> Converting image 95951/118287 shard 38
+>> Converting image 96001/118287 shard 38
+None Annotations data/coco/train2017/000000209630.jpg
+>> Converting image 96051/118287 shard 38
+>> Converting image 96101/118287 shard 38
+>> Converting image 96151/118287 shard 38
+None Annotations data/coco/train2017/000000209969.jpg
+>> Converting image 96201/118287 shard 38
+>> Converting image 96251/118287 shard 38
+Gray Image 210175
+>> Converting image 96301/118287 shard 38
+>> Converting image 96351/118287 shard 38
+>> Converting image 96401/118287 shard 38
+>> Converting image 96451/118287 shard 38
+>> Converting image 96501/118287 shard 38
+None Annotations data/coco/train2017/000000210766.jpg
+Gray Image 210847
+>> Converting image 96551/118287 shard 38
+>> Converting image 96601/118287 shard 38
+>> Converting image 96651/118287 shard 38
+None Annotations data/coco/train2017/000000428399.jpg
+>> Converting image 96701/118287 shard 38
+>> Converting image 96751/118287 shard 38
+None Annotations data/coco/train2017/000000473495.jpg
+None Annotations data/coco/train2017/000000211423.jpg
+None Annotations data/coco/train2017/000000211439.jpg
+>> Converting image 96801/118287 shard 38
+>> Converting image 96851/118287 shard 38
+>> Converting image 96901/118287 shard 38
+None Annotations data/coco/train2017/000000211665.jpg
+>> Converting image 96951/118287 shard 38
+Gray Image 211867
+>> Converting image 97001/118287 shard 38
+None Annotations data/coco/train2017/000000474147.jpg
+>> Converting image 97051/118287 shard 38
+>> Converting image 97101/118287 shard 38
+None Annotations data/coco/train2017/000000474398.jpg
+>> Converting image 97151/118287 shard 38
+>> Converting image 97201/118287 shard 38
+>> Converting image 97251/118287 shard 38
+>> Converting image 97301/118287 shard 38
+None Annotations data/coco/train2017/000000212675.jpg
+>> Converting image 97351/118287 shard 38
+None Annotations data/coco/train2017/000000035475.jpg
+>> Converting image 97401/118287 shard 38
+>> Converting image 97451/118287 shard 38
+None Annotations data/coco/train2017/000000166596.jpg
+>> Converting image 97501/118287 shard 38
+Gray Image 213280
+>> Converting image 97551/118287 shard 38
+>> Converting image 97601/118287 shard 38
+>> Converting image 97651/118287 shard 38
+>> Converting image 97701/118287 shard 38
+>> Converting image 97751/118287 shard 38
+None Annotations data/coco/train2017/000000554841.jpg
+None Annotations data/coco/train2017/000000475929.jpg
+>> Converting image 97801/118287 shard 38
+None Annotations data/coco/train2017/000000476113.jpg
+>> Converting image 97851/118287 shard 38
+None Annotations data/coco/train2017/000000254124.jpg
+None Annotations data/coco/train2017/000000214036.jpg
+>> Converting image 97901/118287 shard 38
+>> Converting image 97951/118287 shard 38
+>> Converting image 98001/118287 shard 38
+None Annotations data/coco/train2017/000000214461.jpg
+>> Converting image 98051/118287 shard 38
+>> Converting image 98101/118287 shard 38
+>> Converting image 98151/118287 shard 38
+Gray Image 476888
+>> Converting image 98201/118287 shard 39
+>> Converting image 98251/118287 shard 39
+>> Converting image 98301/118287 shard 39
+>> Converting image 98351/118287 shard 39
+>> Converting image 98401/118287 shard 39
+>> Converting image 98451/118287 shard 39
+None Annotations data/coco/train2017/000000215450.jpg
+>> Converting image 98501/118287 shard 39
+>> Converting image 98551/118287 shard 39
+>> Converting image 98601/118287 shard 39
+>> Converting image 98651/118287 shard 39
+>> Converting image 98701/118287 shard 39
+>> Converting image 98751/118287 shard 39
+>> Converting image 98801/118287 shard 39
+>> Converting image 98851/118287 shard 39
+>> Converting image 98901/118287 shard 39
+>> Converting image 98951/118287 shard 39
+>> Converting image 99001/118287 shard 39
+>> Converting image 99051/118287 shard 39
+None Annotations data/coco/train2017/000000478982.jpg
+>> Converting image 99101/118287 shard 39
+None Annotations data/coco/train2017/000000217005.jpg
+>> Converting image 99151/118287 shard 39
+None Annotations data/coco/train2017/000000217118.jpg
+None Annotations data/coco/train2017/000000479263.jpg
+None Annotations data/coco/train2017/000000479316.jpg
+>> Converting image 99201/118287 shard 39
+>> Converting image 99251/118287 shard 39
+Gray Image 217341
+>> Converting image 99301/118287 shard 39
+>> Converting image 99351/118287 shard 39
+>> Converting image 99401/118287 shard 39
+None Annotations data/coco/train2017/000000217649.jpg
+>> Converting image 99451/118287 shard 39
+>> Converting image 99501/118287 shard 39
+Gray Image 217886
+>> Converting image 99551/118287 shard 39
+>> Converting image 99601/118287 shard 39
+>> Converting image 99651/118287 shard 39
+Gray Image 480482
+>> Converting image 99701/118287 shard 39
+>> Converting image 99751/118287 shard 39
+None Annotations data/coco/train2017/000000218557.jpg
+>> Converting image 99801/118287 shard 39
+>> Converting image 99851/118287 shard 39
+None Annotations data/coco/train2017/000000443735.jpg
+>> Converting image 99901/118287 shard 39
+>> Converting image 99951/118287 shard 39
+>> Converting image 100001/118287 shard 39
+>> Converting image 100051/118287 shard 39
+Gray Image 400107
+>> Converting image 100101/118287 shard 39
+>> Converting image 100151/118287 shard 39
+>> Converting image 100201/118287 shard 39
+>> Converting image 100251/118287 shard 39
+>> Converting image 100301/118287 shard 39
+>> Converting image 100351/118287 shard 39
+>> Converting image 100401/118287 shard 39
+>> Converting image 100451/118287 shard 39
+None Annotations data/coco/train2017/000000220160.jpg
+None Annotations data/coco/train2017/000000482363.jpg
+>> Converting image 100501/118287 shard 39
+>> Converting image 100551/118287 shard 39
+>> Converting image 100601/118287 shard 39
+None Annotations data/coco/train2017/000000220527.jpg
+>> Converting image 100651/118287 shard 39
+None Annotations data/coco/train2017/000000429995.jpg
+None Annotations data/coco/train2017/000000482826.jpg
+>> Converting image 100701/118287 shard 40
+None Annotations data/coco/train2017/000000220739.jpg
+Gray Image 220770
+>> Converting image 100751/118287 shard 40
+Gray Image 220898
+None Annotations data/coco/train2017/000000220932.jpg
+>> Converting image 100801/118287 shard 40
+>> Converting image 100851/118287 shard 40
+>> Converting image 100901/118287 shard 40
+>> Converting image 100951/118287 shard 40
+None Annotations data/coco/train2017/000000221360.jpg
+>> Converting image 101001/118287 shard 40
+>> Converting image 101051/118287 shard 40
+None Annotations data/coco/train2017/000000221618.jpg
+>> Converting image 101101/118287 shard 40
+None Annotations data/coco/train2017/000000221680.jpg
+Gray Image 221691
+>> Converting image 101151/118287 shard 40
+None Annotations data/coco/train2017/000000221828.jpg
+>> Converting image 101201/118287 shard 40
+>> Converting image 101251/118287 shard 40
+>> Converting image 101301/118287 shard 40
+None Annotations data/coco/train2017/000000222157.jpg
+>> Converting image 101351/118287 shard 40
+None Annotations data/coco/train2017/000000222330.jpg
+>> Converting image 101401/118287 shard 40
+None Annotations data/coco/train2017/000000222383.jpg
+>> Converting image 101451/118287 shard 40
+>> Converting image 101501/118287 shard 40
+Gray Image 484742
+>> Converting image 101551/118287 shard 40
+None Annotations data/coco/train2017/000000222757.jpg
+>> Converting image 101601/118287 shard 40
+>> Converting image 101651/118287 shard 40
+Gray Image 343009
+>> Converting image 101701/118287 shard 40
+>> Converting image 101751/118287 shard 40
+>> Converting image 101801/118287 shard 40
+Gray Image 208206
+>> Converting image 101851/118287 shard 40
+>> Converting image 101901/118287 shard 40
+Gray Image 223616
+>> Converting image 101951/118287 shard 40
+>> Converting image 102001/118287 shard 40
+>> Converting image 102051/118287 shard 40
+>> Converting image 102101/118287 shard 40
+>> Converting image 102151/118287 shard 40
+None Annotations data/coco/train2017/000000124731.jpg
+None Annotations data/coco/train2017/000000081043.jpg
+None Annotations data/coco/train2017/000000224136.jpg
+>> Converting image 102201/118287 shard 40
+>> Converting image 102251/118287 shard 40
+None Annotations data/coco/train2017/000000483334.jpg
+>> Converting image 102301/118287 shard 40
+None Annotations data/coco/train2017/000000486632.jpg
+>> Converting image 102351/118287 shard 40
+None Annotations data/coco/train2017/000000486769.jpg
+>> Converting image 102401/118287 shard 40
+None Annotations data/coco/train2017/000000224742.jpg
+>> Converting image 102451/118287 shard 40
+None Annotations data/coco/train2017/000000077318.jpg
+>> Converting image 102501/118287 shard 40
+>> Converting image 102551/118287 shard 40
+>> Converting image 102601/118287 shard 40
+>> Converting image 102651/118287 shard 40
+None Annotations data/coco/train2017/000000487399.jpg
+>> Converting image 102701/118287 shard 40
+None Annotations data/coco/train2017/000000487516.jpg
+>> Converting image 102751/118287 shard 40
+>> Converting image 102801/118287 shard 40
+>> Converting image 102851/118287 shard 40
+Gray Image 225717
+>> Converting image 102901/118287 shard 40
+None Annotations data/coco/train2017/000000225859.jpg
+>> Converting image 102951/118287 shard 40
+>> Converting image 103001/118287 shard 40
+None Annotations data/coco/train2017/000000226128.jpg
+>> Converting image 103051/118287 shard 40
+>> Converting image 103101/118287 shard 40
+>> Converting image 103151/118287 shard 40
+>> Converting image 103201/118287 shard 41
+Gray Image 226585
+None Annotations data/coco/train2017/000000226629.jpg
+>> Converting image 103251/118287 shard 41
+>> Converting image 103301/118287 shard 41
+None Annotations data/coco/train2017/000000488924.jpg
+>> Converting image 103351/118287 shard 41
+>> Converting image 103401/118287 shard 41
+>> Converting image 103451/118287 shard 41
+None Annotations data/coco/train2017/000000489343.jpg
+>> Converting image 103501/118287 shard 41
+>> Converting image 103551/118287 shard 41
+None Annotations data/coco/train2017/000000387416.jpg
+>> Converting image 103601/118287 shard 41
+None Annotations data/coco/train2017/000000227547.jpg
+>> Converting image 103651/118287 shard 41
+None Annotations data/coco/train2017/000000059953.jpg
+>> Converting image 103701/118287 shard 41
+None Annotations data/coco/train2017/000000227699.jpg
+None Annotations data/coco/train2017/000000489907.jpg
+None Annotations data/coco/train2017/000000489914.jpg
+>> Converting image 103751/118287 shard 41
+>> Converting image 103801/118287 shard 41
+None Annotations data/coco/train2017/000000007592.jpg
+>> Converting image 103851/118287 shard 41
+>> Converting image 103901/118287 shard 41
+>> Converting image 103951/118287 shard 41
+>> Converting image 104001/118287 shard 41
+None Annotations data/coco/train2017/000000228407.jpg
+None Annotations data/coco/train2017/000000228415.jpg
+Gray Image 228474
+>> Converting image 104051/118287 shard 41
+>> Converting image 104101/118287 shard 41
+>> Converting image 104151/118287 shard 41
+None Annotations data/coco/train2017/000000228727.jpg
+>> Converting image 104201/118287 shard 41
+Gray Image 491058
+None Annotations data/coco/train2017/000000491114.jpg
+>> Converting image 104251/118287 shard 41
+>> Converting image 104301/118287 shard 41
+>> Converting image 104351/118287 shard 41
+None Annotations data/coco/train2017/000000491482.jpg
+None Annotations data/coco/train2017/000000435360.jpg
+>> Converting image 104401/118287 shard 41
+>> Converting image 104451/118287 shard 41
+None Annotations data/coco/train2017/000000518855.jpg
+>> Converting image 104501/118287 shard 41
+>> Converting image 104551/118287 shard 41
+None Annotations data/coco/train2017/000000229782.jpg
+>> Converting image 104601/118287 shard 41
+>> Converting image 104651/118287 shard 41
+None Annotations data/coco/train2017/000000229981.jpg
+>> Converting image 104701/118287 shard 41
+>> Converting image 104751/118287 shard 41
+Gray Image 492325
+>> Converting image 104801/118287 shard 41
+Gray Image 492395
+>> Converting image 104851/118287 shard 41
+>> Converting image 104901/118287 shard 41
+None Annotations data/coco/train2017/000000038435.jpg
+>> Converting image 104951/118287 shard 41
+None Annotations data/coco/train2017/000000230639.jpg
+>> Converting image 105001/118287 shard 41
+None Annotations data/coco/train2017/000000230795.jpg
+>> Converting image 105051/118287 shard 41
+None Annotations data/coco/train2017/000000252101.jpg
+None Annotations data/coco/train2017/000000230968.jpg
+>> Converting image 105101/118287 shard 41
+>> Converting image 105151/118287 shard 41
+None Annotations data/coco/train2017/000000231119.jpg
+>> Converting image 105201/118287 shard 41
+>> Converting image 105251/118287 shard 41
+>> Converting image 105301/118287 shard 41
+>> Converting image 105351/118287 shard 41
+>> Converting image 105401/118287 shard 41
+>> Converting image 105451/118287 shard 41
+None Annotations data/coco/train2017/000000231840.jpg
+None Annotations data/coco/train2017/000000007721.jpg
+>> Converting image 105501/118287 shard 41
+>> Converting image 105551/118287 shard 41
+Gray Image 494273
+>> Converting image 105601/118287 shard 41
+>> Converting image 105651/118287 shard 41
+>> Converting image 105701/118287 shard 41
+>> Converting image 105751/118287 shard 42
+>> Converting image 105801/118287 shard 42
+None Annotations data/coco/train2017/000000494812.jpg
+>> Converting image 105851/118287 shard 42
+>> Converting image 105901/118287 shard 42
+None Annotations data/coco/train2017/000000495053.jpg
+>> Converting image 105951/118287 shard 42
+None Annotations data/coco/train2017/000000495235.jpg
+>> Converting image 106001/118287 shard 42
+>> Converting image 106051/118287 shard 42
+Gray Image 233263
+>> Converting image 106101/118287 shard 42
+>> Converting image 106151/118287 shard 42
+None Annotations data/coco/train2017/000000532277.jpg
+>> Converting image 106201/118287 shard 42
+>> Converting image 106251/118287 shard 42
+>> Converting image 106301/118287 shard 42
+>> Converting image 106351/118287 shard 42
+>> Converting image 106401/118287 shard 42
+None Annotations data/coco/train2017/000000234138.jpg
+>> Converting image 106451/118287 shard 42
+>> Converting image 106501/118287 shard 42
+Gray Image 496444
+>> Converting image 106551/118287 shard 42
+>> Converting image 106601/118287 shard 42
+>> Converting image 106651/118287 shard 42
+>> Converting image 106701/118287 shard 42
+>> Converting image 106751/118287 shard 42
+None Annotations data/coco/train2017/000000234981.jpg
+>> Converting image 106801/118287 shard 42
+None Annotations data/coco/train2017/000000234988.jpg
+None Annotations data/coco/train2017/000000514111.jpg
+>> Converting image 106851/118287 shard 42
+None Annotations data/coco/train2017/000000497257.jpg
+>> Converting image 106901/118287 shard 42
+>> Converting image 106951/118287 shard 42
+>> Converting image 107001/118287 shard 42
+None Annotations data/coco/train2017/000000235529.jpg
+>> Converting image 107051/118287 shard 42
+>> Converting image 107101/118287 shard 42
+None Annotations data/coco/train2017/000000235783.jpg
+>> Converting image 107151/118287 shard 42
+>> Converting image 107201/118287 shard 42
+>> Converting image 107251/118287 shard 42
+None Annotations data/coco/train2017/000000498239.jpg
+>> Converting image 107301/118287 shard 42
+None Annotations data/coco/train2017/000000498371.jpg
+>> Converting image 107351/118287 shard 42
+>> Converting image 107401/118287 shard 42
+>> Converting image 107451/118287 shard 42
+>> Converting image 107501/118287 shard 42
+None Annotations data/coco/train2017/000000236698.jpg
+Gray Image 498856
+>> Converting image 107551/118287 shard 42
+None Annotations data/coco/train2017/000000498969.jpg
+None Annotations data/coco/train2017/000000498975.jpg
+>> Converting image 107601/118287 shard 42
+>> Converting image 107651/118287 shard 42
+>> Converting image 107701/118287 shard 42
+>> Converting image 107751/118287 shard 42
+None Annotations data/coco/train2017/000000499446.jpg
+>> Converting image 107801/118287 shard 42
+>> Converting image 107851/118287 shard 42
+None Annotations data/coco/train2017/000000499697.jpg
+>> Converting image 107901/118287 shard 42
+>> Converting image 107951/118287 shard 42
+None Annotations data/coco/train2017/000000237718.jpg
+None Annotations data/coco/train2017/000000301765.jpg
+>> Converting image 108001/118287 shard 42
+None Annotations data/coco/train2017/000000237860.jpg
+>> Converting image 108051/118287 shard 42
+None Annotations data/coco/train2017/000000500079.jpg
+None Annotations data/coco/train2017/000000238006.jpg
+>> Converting image 108101/118287 shard 42
+None Annotations data/coco/train2017/000000238141.jpg
+>> Converting image 108151/118287 shard 42
+>> Converting image 108201/118287 shard 42
+>> Converting image 108251/118287 shard 43
+>> Converting image 108301/118287 shard 43
+None Annotations data/coco/train2017/000000500780.jpg
+>> Converting image 108351/118287 shard 43
+>> Converting image 108401/118287 shard 43
+>> Converting image 108451/118287 shard 43
+None Annotations data/coco/train2017/000000501121.jpg
+>> Converting image 108501/118287 shard 43
+>> Converting image 108551/118287 shard 43
+>> Converting image 108601/118287 shard 43
+>> Converting image 108651/118287 shard 43
+>> Converting image 108701/118287 shard 43
+None Annotations data/coco/train2017/000000239505.jpg
+>> Converting image 108751/118287 shard 43
+>> Converting image 108801/118287 shard 43
+>> Converting image 108851/118287 shard 43
+None Annotations data/coco/train2017/000000239942.jpg
+>> Converting image 108901/118287 shard 43
+>> Converting image 108951/118287 shard 43
+None Annotations data/coco/train2017/000000502325.jpg
+>> Converting image 109001/118287 shard 43
+>> Converting image 109051/118287 shard 43
+None Annotations data/coco/train2017/000000502479.jpg
+>> Converting image 109101/118287 shard 43
+None Annotations data/coco/train2017/000000240436.jpg
+>> Converting image 109151/118287 shard 43
+>> Converting image 109201/118287 shard 43
+>> Converting image 109251/118287 shard 43
+None Annotations data/coco/train2017/000000240830.jpg
+>> Converting image 109301/118287 shard 43
+>> Converting image 109351/118287 shard 43
+None Annotations data/coco/train2017/000000503200.jpg
+>> Converting image 109401/118287 shard 43
+None Annotations data/coco/train2017/000000241209.jpg
+>> Converting image 109451/118287 shard 43
+None Annotations data/coco/train2017/000000503483.jpg
+>> Converting image 109501/118287 shard 43
+None Annotations data/coco/train2017/000000127626.jpg
+>> Converting image 109551/118287 shard 43
+>> Converting image 109601/118287 shard 43
+None Annotations data/coco/train2017/000000241595.jpg
+None Annotations data/coco/train2017/000000503860.jpg
+>> Converting image 109651/118287 shard 43
+>> Converting image 109701/118287 shard 43
+None Annotations data/coco/train2017/000000504025.jpg
+>> Converting image 109751/118287 shard 43
+>> Converting image 109801/118287 shard 43
+None Annotations data/coco/train2017/000000242092.jpg
+>> Converting image 109851/118287 shard 43
+>> Converting image 109901/118287 shard 43
+None Annotations data/coco/train2017/000000504524.jpg
+None Annotations data/coco/train2017/000000433616.jpg
+>> Converting image 109951/118287 shard 43
+>> Converting image 110001/118287 shard 43
+Gray Image 40428
+>> Converting image 110051/118287 shard 43
+None Annotations data/coco/train2017/000000504886.jpg
+None Annotations data/coco/train2017/000000242752.jpg
+>> Converting image 110101/118287 shard 43
+>> Converting image 110151/118287 shard 43
+None Annotations data/coco/train2017/000000242969.jpg
+>> Converting image 110201/118287 shard 43
+>> Converting image 110251/118287 shard 43
+Gray Image 243205
+>> Converting image 110301/118287 shard 43
+>> Converting image 110351/118287 shard 43
+None Annotations data/coco/train2017/000000505583.jpg
+None Annotations data/coco/train2017/000000505637.jpg
+>> Converting image 110401/118287 shard 43
+>> Converting image 110451/118287 shard 43
+None Annotations data/coco/train2017/000000243625.jpg
+None Annotations data/coco/train2017/000000505865.jpg
+None Annotations data/coco/train2017/000000346456.jpg
+>> Converting image 110501/118287 shard 43
+>> Converting image 110551/118287 shard 43
+None Annotations data/coco/train2017/000000506066.jpg
+>> Converting image 110601/118287 shard 43
+>> Converting image 110651/118287 shard 43
+None Annotations data/coco/train2017/000000244108.jpg
+None Annotations data/coco/train2017/000000244160.jpg
+>> Converting image 110701/118287 shard 43
+>> Converting image 110751/118287 shard 44
+>> Converting image 110801/118287 shard 44
+None Annotations data/coco/train2017/000000506714.jpg
+>> Converting image 110851/118287 shard 44
+None Annotations data/coco/train2017/000000244636.jpg
+>> Converting image 110901/118287 shard 44
+>> Converting image 110951/118287 shard 44
+None Annotations data/coco/train2017/000000244885.jpg
+>> Converting image 111001/118287 shard 44
+None Annotations data/coco/train2017/000000409890.jpg
+>> Converting image 111051/118287 shard 44
+None Annotations data/coco/train2017/000000507257.jpg
+>> Converting image 111101/118287 shard 44
+>> Converting image 111151/118287 shard 44
+None Annotations data/coco/train2017/000000245373.jpg
+>> Converting image 111201/118287 shard 44
+None Annotations data/coco/train2017/000000507686.jpg
+>> Converting image 111251/118287 shard 44
+None Annotations data/coco/train2017/000000245560.jpg
+Gray Image 507794
+>> Converting image 111301/118287 shard 44
+None Annotations data/coco/train2017/000000507828.jpg
+>> Converting image 111351/118287 shard 44
+None Annotations data/coco/train2017/000000245810.jpg
+>> Converting image 111401/118287 shard 44
+>> Converting image 111451/118287 shard 44
+>> Converting image 111501/118287 shard 44
+>> Converting image 111551/118287 shard 44
+None Annotations data/coco/train2017/000000246348.jpg
+>> Converting image 111601/118287 shard 44
+>> Converting image 111651/118287 shard 44
+>> Converting image 111701/118287 shard 44
+None Annotations data/coco/train2017/000000508771.jpg
+>> Converting image 111751/118287 shard 44
+>> Converting image 111801/118287 shard 44
+None Annotations data/coco/train2017/000000303287.jpg
+None Annotations data/coco/train2017/000000509036.jpg
+>> Converting image 111851/118287 shard 44
+None Annotations data/coco/train2017/000000246973.jpg
+>> Converting image 111901/118287 shard 44
+None Annotations data/coco/train2017/000000247177.jpg
+>> Converting image 111951/118287 shard 44
+None Annotations data/coco/train2017/000000509423.jpg
+>> Converting image 112001/118287 shard 44
+>> Converting image 112051/118287 shard 44
+None Annotations data/coco/train2017/000000247504.jpg
+>> Converting image 112101/118287 shard 44
+None Annotations data/coco/train2017/000000247624.jpg
+None Annotations data/coco/train2017/000000509792.jpg
+None Annotations data/coco/train2017/000000509815.jpg
+>> Converting image 112151/118287 shard 44
+>> Converting image 112201/118287 shard 44
+>> Converting image 112251/118287 shard 44
+>> Converting image 112301/118287 shard 44
+>> Converting image 112351/118287 shard 44
+>> Converting image 112401/118287 shard 44
+>> Converting image 112451/118287 shard 44
+Gray Image 510587
+None Annotations data/coco/train2017/000000248464.jpg
+>> Converting image 112501/118287 shard 44
+>> Converting image 112551/118287 shard 44
+>> Converting image 112601/118287 shard 44
+>> Converting image 112651/118287 shard 44
+>> Converting image 112701/118287 shard 44
+>> Converting image 112751/118287 shard 44
+None Annotations data/coco/train2017/000000522127.jpg
+>> Converting image 112801/118287 shard 44
+>> Converting image 112851/118287 shard 44
+>> Converting image 112901/118287 shard 44
+None Annotations data/coco/train2017/000000434813.jpg
+>> Converting image 112951/118287 shard 44
+Gray Image 249711
+>> Converting image 113001/118287 shard 44
+Gray Image 249835
+>> Converting image 113051/118287 shard 44
+None Annotations data/coco/train2017/000000249977.jpg
+>> Converting image 113101/118287 shard 44
+None Annotations data/coco/train2017/000000391200.jpg
+>> Converting image 113151/118287 shard 44
+>> Converting image 113201/118287 shard 44
+Gray Image 250239
+None Annotations data/coco/train2017/000000250289.jpg
+>> Converting image 113251/118287 shard 44
+>> Converting image 113301/118287 shard 45
+>> Converting image 113351/118287 shard 45
+>> Converting image 113401/118287 shard 45
+>> Converting image 113451/118287 shard 45
+>> Converting image 113501/118287 shard 45
+None Annotations data/coco/train2017/000000513111.jpg
+None Annotations data/coco/train2017/000000025816.jpg
+None Annotations data/coco/train2017/000000513149.jpg
+>> Converting image 113551/118287 shard 45
+None Annotations data/coco/train2017/000000251107.jpg
+None Annotations data/coco/train2017/000000251132.jpg
+>> Converting image 113601/118287 shard 45
+>> Converting image 113651/118287 shard 45
+>> Converting image 113701/118287 shard 45
+>> Converting image 113751/118287 shard 45
+None Annotations data/coco/train2017/000000008379.jpg
+>> Converting image 113801/118287 shard 45
+>> Converting image 113851/118287 shard 45
+>> Converting image 113901/118287 shard 45
+>> Converting image 113951/118287 shard 45
+>> Converting image 114001/118287 shard 45
+None Annotations data/coco/train2017/000000252122.jpg
+>> Converting image 114051/118287 shard 45
+None Annotations data/coco/train2017/000000260501.jpg
+>> Converting image 114101/118287 shard 45
+>> Converting image 114151/118287 shard 45
+>> Converting image 114201/118287 shard 45
+>> Converting image 114251/118287 shard 45
+None Annotations data/coco/train2017/000000129507.jpg
+>> Converting image 114301/118287 shard 45
+>> Converting image 114351/118287 shard 45
+None Annotations data/coco/train2017/000000252996.jpg
+None Annotations data/coco/train2017/000000025885.jpg
+>> Converting image 114401/118287 shard 45
+>> Converting image 114451/118287 shard 45
+None Annotations data/coco/train2017/000000515427.jpg
+>> Converting image 114501/118287 shard 45
+None Annotations data/coco/train2017/000000253435.jpg
+>> Converting image 114551/118287 shard 45
+None Annotations data/coco/train2017/000000253520.jpg
+>> Converting image 114601/118287 shard 45
+>> Converting image 114651/118287 shard 45
+None Annotations data/coco/train2017/000000253688.jpg
+>> Converting image 114701/118287 shard 45
+>> Converting image 114751/118287 shard 45
+>> Converting image 114801/118287 shard 45
+>> Converting image 114851/118287 shard 45
+>> Converting image 114901/118287 shard 45
+>> Converting image 114951/118287 shard 45
+None Annotations data/coco/train2017/000000516490.jpg
+None Annotations data/coco/train2017/000000516542.jpg
+None Annotations data/coco/train2017/000000254415.jpg
+>> Converting image 115001/118287 shard 45
+>> Converting image 115051/118287 shard 45
+None Annotations data/coco/train2017/000000516777.jpg
+>> Converting image 115101/118287 shard 45
+None Annotations data/coco/train2017/000000095772.jpg
+>> Converting image 115151/118287 shard 45
+None Annotations data/coco/train2017/000000516974.jpg
+>> Converting image 115201/118287 shard 45
+>> Converting image 115251/118287 shard 45
+>> Converting image 115301/118287 shard 45
+None Annotations data/coco/train2017/000000517366.jpg
+>> Converting image 115351/118287 shard 45
+>> Converting image 115401/118287 shard 45
+None Annotations data/coco/train2017/000000252918.jpg
+>> Converting image 115451/118287 shard 45
+>> Converting image 115501/118287 shard 45
+>> Converting image 115551/118287 shard 45
+Gray Image 517899
+>> Converting image 115601/118287 shard 45
+Gray Image 518025
+>> Converting image 115651/118287 shard 45
+>> Converting image 115701/118287 shard 45
+>> Converting image 115751/118287 shard 45
+>> Converting image 115801/118287 shard 46
+None Annotations data/coco/train2017/000000518487.jpg
+>> Converting image 115851/118287 shard 46
+>> Converting image 115901/118287 shard 46
+>> Converting image 115951/118287 shard 46
+None Annotations data/coco/train2017/000000256655.jpg
+>> Converting image 116001/118287 shard 46
+Gray Image 518951
+>> Converting image 116051/118287 shard 46
+>> Converting image 116101/118287 shard 46
+None Annotations data/coco/train2017/000000257034.jpg
+>> Converting image 116151/118287 shard 46
+>> Converting image 116201/118287 shard 46
+Gray Image 257178
+None Annotations data/coco/train2017/000000519359.jpg
+>> Converting image 116251/118287 shard 46
+>> Converting image 116301/118287 shard 46
+>> Converting image 116351/118287 shard 46
+>> Converting image 116401/118287 shard 46
+>> Converting image 116451/118287 shard 46
+>> Converting image 116501/118287 shard 46
+>> Converting image 116551/118287 shard 46
+None Annotations data/coco/train2017/000000258108.jpg
+>> Converting image 116601/118287 shard 46
+None Annotations data/coco/train2017/000000520316.jpg
+>> Converting image 116651/118287 shard 46
+Gray Image 520479
+>> Converting image 116701/118287 shard 46
+None Annotations data/coco/train2017/000000258450.jpg
+>> Converting image 116751/118287 shard 46
+None Annotations data/coco/train2017/000000520737.jpg
+>> Converting image 116801/118287 shard 46
+>> Converting image 116851/118287 shard 46
+>> Converting image 116901/118287 shard 46
+None Annotations data/coco/train2017/000000521098.jpg
+>> Converting image 116951/118287 shard 46
+None Annotations data/coco/train2017/000000521132.jpg
+>> Converting image 117001/118287 shard 46
+>> Converting image 117051/118287 shard 46
+Gray Image 259284
+>> Converting image 117101/118287 shard 46
+>> Converting image 117151/118287 shard 46
+None Annotations data/coco/train2017/000000259439.jpg
+>> Converting image 117201/118287 shard 46
+>> Converting image 117251/118287 shard 46
+>> Converting image 117301/118287 shard 46
+None Annotations data/coco/train2017/000000522013.jpg
+>> Converting image 117351/118287 shard 46
+None Annotations data/coco/train2017/000000259988.jpg
+>> Converting image 117401/118287 shard 46
+>> Converting image 117451/118287 shard 46
+>> Converting image 117501/118287 shard 46
+>> Converting image 117551/118287 shard 46
+None Annotations data/coco/train2017/000000522527.jpg
+None Annotations data/coco/train2017/000000260484.jpg
+>> Converting image 117601/118287 shard 46
+>> Converting image 117651/118287 shard 46
+>> Converting image 117701/118287 shard 46
+>> Converting image 117751/118287 shard 46
+Gray Image 260962
+>> Converting image 117801/118287 shard 46
+>> Converting image 117851/118287 shard 46
+>> Converting image 117901/118287 shard 46
+>> Converting image 117951/118287 shard 46
+None Annotations data/coco/train2017/000000130950.jpg
+None Annotations data/coco/train2017/000000523581.jpg
+>> Converting image 118001/118287 shard 46
+>> Converting image 118051/118287 shard 46
+None Annotations data/coco/train2017/000000218357.jpg
+>> Converting image 118101/118287 shard 46
+>> Converting image 118151/118287 shard 46
+None Annotations data/coco/train2017/000000524050.jpg
+>> Converting image 118201/118287 shard 46
+>> Converting image 118251/118287 shard 46
+
+
+Finished converting the coco dataset!
