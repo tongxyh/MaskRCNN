@@ -18,10 +18,10 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
         - [x] 256 anchors sampled (Positive : Negative = 1 : 1)
             - [x] IoU > 0.7
             - [x] Anchor has the largest IoU with each gt_bbox
-        - [] Speed Up
-    - [] Regression Loss
-    - [] Score Loss
-- [] ROIalign
+        - [ ] Speed Up
+    - [ ] Regression Loss
+    - [ ] Score Loss
+- [ ] ROIalign
 
 ## Step
 1. Download pretrained resnet50 model, `wget http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz` and unzip it
