@@ -32,15 +32,16 @@ def overlap(anchor,gt_bbox):
 
     bg_width = int(max(gt_bbox[0] + 0.5*gt_bbox[2] , anchor[0] + 0.5*anchor[2]))
     bg_height = int(max(gt_bbox[1] + 0.5*gt_bbox[3] , anchor[1] + 0.5*anchor[3]))
-    bg = np.zeros((bg_width,bg_height))
+    bg = np.zeros((bg_width,bg_height),np.uint8)
     x_gt,y_gt,dx_gt,dy_gt = gt_bbox
     x_an, y_an, dx_an, dy_an = anchor
-    bg[int(x_gt -0.5 * dx_gt): int(x_gt + 0.5 * dx_gt), int(y_gt - 0.5 * dy_gt):int(y_gt + 0.5*dy_gt) ] = bg[int(x_gt -0.5 * dx_gt): int(x_gt + 0.5 * dx_gt), int(y_gt - 0.5 * dy_gt):int(y_gt + 0.5*dy_gt) ] + 1.
-    bg[int(x_an - 0.5 * dx_an):int(x_an + 0.5 * dx_an), int(y_an - 0.5 * dy_an):int(y_an + 0.5 * dy_an)] = bg[int(x_an - 0.5 * dx_an):int(x_an + 0.5 * dx_an), int(y_an - 0.5 * dy_an):int(y_an + 0.5 * dy_an)] + 1.
+    bg[int(x_gt -0.5 * dx_gt): int(x_gt + 0.5 * dx_gt), int(y_gt - 0.5 * dy_gt):int(y_gt + 0.5*dy_gt) ] = bg[int(x_gt -0.5 * dx_gt): int(x_gt + 0.5 * dx_gt), int(y_gt - 0.5 * dy_gt):int(y_gt + 0.5*dy_gt) ] + 1
+    bg[int(x_an - 0.5 * dx_an):int(x_an + 0.5 * dx_an), int(y_an - 0.5 * dy_an):int(y_an + 0.5 * dy_an)] = bg[int(x_an - 0.5 * dx_an):int(x_an + 0.5 * dx_an), int(y_an - 0.5 * dy_an):int(y_an + 0.5 * dy_an)] + 1
 
-    ALL = np.sum(bg) - np.sum(bg[bg == 2.]) * 0.5
-    IoU = np.sum(bg[bg == 2.])*0.5/ ALL
-    
+    over_pixels = np.sum(bg[bg == 2.]) * 0.5
+    ALL = np.sum(bg) - over_pixels
+    IoU = over_pixels/ ALL
+
     #plt.imshow(bg)
     #plt.title(IoU)
     #plt.show()
@@ -49,51 +50,66 @@ def overlap(anchor,gt_bbox):
 
     return IoU
 
-    '''
-    count = 0
-    x_relat = gt_bbox[0] - anchor[0]
-    y_relat = gt_bbox[1] - anchor[1]
-    for w in range(gt_bbox[2]):
-        for h in range(gt_bbox[3]):
-            if w+x_relat>=0 and w+x_relat<anchor[2] and h+y_relat>=0 and h+y_relat<anchor[3]:
-                count = count + 1U
-    return count*1.0/anchor[2]/anchor[3]
-    '''
+class samples():
+    def __init__(self,anchor = None,gt_bbox = None,iou = 0,front = False):
+        self.anchor = anchor
+        self.gt_bbox = gt_bbox
+        self.iou = iou
+        self.front = front
 
 def anchor_sample(all_anchors,gt_bboxes):
-
 
     # positive - (1) highest IoU (2)Iou > 0.7
     # negative - (1) Iou < 0.3
     # gt_bbox - [A,5]
     # all_anchors [N,K,4]
 
-    time_beg = time.time()
-
     count_pos = 0
     count_neg = 0
-
+    ious = [] # all_samples
+    ious_neg = [] # negative samples
+    ious_max = [] #s amples with largest IoU for each gt_bbox
     for gt_bbox in gt_bboxes:
-        #calculate overlap
-        #print(anchor)
-        ious = []
+        #time_beg = time.time()
+        max_iou_sample = samples()
+        count=0
         for anchors in all_anchors:
             for anchor in anchors:
-
+                iou_max = 0.0
+                count += 1
+                #if(count%10000 == 0):
+                #    print(count)
                 # boundry limitation
                 # if anchor[0] + anchor[2] < width and anchor[1] + anchor[3] < height
-                iou = overlap(anchor,gt_bbox[:4])
+                if(count_pos < 128 or count_neg < 128):
+                    iou = overlap(anchor,gt_bbox[:4])
+                else:
+                    ious.extend(ious_neg[:(256-len(ious))])
+                    print("Postive Samples:", count_pos, "Negative Samples:", 256 - count_pos, "All Samples:", len(ious))
+                    #print(time.time() - time_beg, "s")
+                    return ious
                 #print(iou)
+                if iou > iou_max:
+                    iou_max = iou
+                    max_iou_sample.anchor = anchor
+                    max_iou_sample.gt_bbox = gt_bbox
+                    max_iou_sample.iou = iou
+                    max_iou_sample.True = True
+
                 if(iou > 0.7):
-                    #print(iou)
-                    ious.append([anchor,gt_bbox,iou,1])
+                    # anchor_idx,anchor,gt_bbox,iou,1
+                    ious.append(samples(anchor,gt_bbox,iou,True))
                     count_pos += 1
-                    #print(count_pos)
-
-                if(iou < 0.3):
-                    ious.append([anchor, gt_bbox, iou, 0])
+                if(iou < 0.3 and count_neg < 256 - count_pos):
+                    ious_neg.append(samples(anchor,gt_bbox,iou,False))
                     count_neg += 1
+        if(max_iou_sample.iou > 0.3):
+            ious_max.append(max_iou_sample)
+        #print(time.time() - time_beg, "s")
+    if(count_pos < 128):
+        ious.extend(ious_max[:max(128-count_pos,len(ious_max))])
+    ious.extend(ious_neg[:(256-len(ious))])
+    print("Postive Samples:",count_pos,"Negative Samples:",256 - count_pos,"All Samples:", len(ious))
+    return ious
 
-    print("ALL POSITIVE ANCHORS NUM:",count_neg,count_pos)
-    print(time.time() - time_beg,"s")
 #test
