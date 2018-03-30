@@ -6,14 +6,22 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 - [x] Build network structure of 'res_nets_v1_50'
 - [x] Download COCO 2017 Dataset & Converting to TFRecoder
 - [x] Use TFRecoder and tf.data API as input pipeline
-- [ ] Anchor sample
-    - [x] Anchor generator
+- [ ] Dataset Preprocess
+- [ ] Anchor
+    - [x] Generator
     - [x] Convert [x_left,y_up] to the center of the anchor
     - [ ] Boundry Limitation
-    - [x] Anchor IoU
+    - [x] IoU
         - [x] IoU test
-
-
+    - [x] Sample 
+        - [x] Rules
+        - [x] 256 anchors sampled (Positive : Negative = 1 : 1)
+            - [x] IoU > 0.7
+            - [x] The largest IoU with each gt_bbox
+        - [] Speed Up
+    - [] Regression Loss
+    - [] Score Loss
+- [] ROIalign
 
 ## Step
 1. Download pretrained resnet50 model, `wget http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz` and unzip it
