@@ -7,6 +7,7 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 - [x] Download COCO 2017 Dataset & Converting to TFRecoder
 - [x] Use TFRecoder and tf.data API as input pipeline
 - [ ] Dataset Preprocess
+    - [ ] Random Flipping
 - [ ] Anchor
     - [x] Generator
     - [x] Convert [x_left,y_up] to the center of the anchor
