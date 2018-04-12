@@ -8,7 +8,9 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 - [x] Use TFRecoder and tf.data API as input pipeline
 - [ ] Dataset Preprocess
     - [ ] Random Flipping
+    - [ ] 
 - [ ] Anchor
+    - [ ] Rewrite anchor.py in tensorflow
     - [x] Generator
     - [x] Convert [x_left,y_up] to the center of the anchor
     - [ ] Boundry Limitation
