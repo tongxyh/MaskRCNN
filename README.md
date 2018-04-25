@@ -4,8 +4,11 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 
 ## TO-DO
 - [x] Build network structure of 'res_nets_v1_50'
+- [x] Restore pretrained model
+    - [x] get var list to restore
 - [x] Download COCO 2017 Dataset & Converting to TFRecoder
 - [x] Use TFRecoder and tf.data API as input pipeline
+- [x] Resnet_v1_50
 - [ ] Dataset Preprocess
     - [ ] Random Flipping
     - [ ] 
@@ -27,8 +30,10 @@ This repo attempts to reproduce this amazing work by Kaiming He et al. :
 - [ ] ROIalign
 
 ## Step
-1. Download pretrained resnet50 model, `wget http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz` and unzip it
+1. Download pretrained resnet50 model
 ```
+cd data/
+wget http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz
 tar -xzvf resnet_v1_50_2016_08_28.tar.gz
 ```
 2. Compile and Install pycocotools
@@ -39,6 +44,6 @@ tar -xzvf resnet_v1_50_2016_08_28.tar.gz
 ## Acknowledgment
 This project This repo borrows tons of code from
 https://github.com/CharlesShang/FastMaskRCNN
-
+https://github.com/ry/tensorflow-resnet.git
 ## LICENSE
 Apache LICENSE 2.0
